@@ -111,8 +111,6 @@ With the latest version of Ideaspad you can create your own mini systems.
 
 -----
 
-<br/>
-
 # Background
 
 Ideaspad was written between 2002 and 2007, initially I wrote it for myself. I wanted something where I could write and maintain project notes, where I could build up certain areas in more detail.
