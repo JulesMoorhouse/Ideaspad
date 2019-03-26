@@ -30,9 +30,8 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 # What is Ideaspad?
 
 ## Helps you be more organised
-<table border="0">
-<tr>
-<td>
+
+<img align="right" src="gfx/branchicons.png" width="168" height="114">
 
  * Tree navigation, powerful information organisation feature, in a hierarchical manner.
  * Topics, sub topics and icons to help you identify your topic.
@@ -41,23 +40,10 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
  * You can use it like a jotter pad, allowing easy access to topics.
  * Not only a text editor, but a word processor and more.
 
-</td>
-<td>
-<img alXign="right" src="gfx/branchicons.png" width="168" height="114">
-</td>
-</tr>
-</table>
-
-
-
 
 ## Templates
-<table border="0">
-<tr>
-<td>
-<img alXign="left" src="gfx/templates-html-forms.png" width="199" height="186">
-</td>
-<td>
+
+<img align="left" src="gfx/templates-html-forms.png" width="199" height="186">
 
  *  Basically a form in which to type your information.
  *  It's made using HTML so you can write your own, with a little HTML knowledge.
@@ -67,9 +53,6 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
  *  You can add information which can be used as reference material or just to add your own notes.
  *  Create your own customised information collection or data entry system.
 
-</td>
-</tr>
-</table>
 
 ### Caters for creativity and future change
 * Create your own Templates (HTML Forms) add as much complexity as required.
@@ -77,9 +60,8 @@ Template help topics and sample included to get you started.
 
 
 ### Allows you to spend less time entering information
-<table border="0">
-<tr>
-<td>
+
+<img align="right" src="gfx/rapidentry.png" width="277" height="238">
 
  * Rapid entry, quickly enter your information using a template.
  * You can also drag and drop branches to reorganise topics.
@@ -90,25 +72,12 @@ Template help topics and sample included to get you started.
  * Then if your venture takes off, you can upgrade to a bigger dedicated system.
  * Build up structure information using templates, then you can export it a bigger system!
 
-</td>
-<td>
-<img aliXgn="right" src="gfx/rapidentry.png" width="277" height="238">
-</td>
-</tr>
-</table>
-
-
-
 
 
 
 ## Customization
-<table border="0">
-<tr>
-<td>
-<img alXign="left" src="gfx/branch-icons.png" width="207" height="195">
-</td>
-<td>
+
+<img align="left" src="gfx/branch-icons.png" width="207" height="195">
 
  *  There are three areas to customization
  1.	Templates, HTML Forms. 
@@ -116,15 +85,9 @@ Template help topics and sample included to get you started.
  3.	General settings and bookmarks. 
 With the latest version of Ideaspad you can create your own mini systems.
 
-</td>
-</tr>
-</table>
-
-
 # Features
-<table>
-<tr>
-<td>
+
+<img align="right" src="gfx/project-plan.png" width="292" height="202">
 
  * Rich Text Editor, Ideaspad uses Rich Text File format (or RTF) to allow colour and font 
  * formatting, similar to WordPad.
@@ -135,16 +98,6 @@ With the latest version of Ideaspad you can create your own mini systems.
  * Rapid Entry.
  * Fully customizable.
  * Import Export features.
- 
-</td>
-<td>
-<img align="right" src="gfx/project-plan.png" width="292" height="202">
-</td>
-</tr>
-</table>
-
-
-
 
 
 ## Possible Uses
