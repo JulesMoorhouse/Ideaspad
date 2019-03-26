@@ -78,7 +78,7 @@ Template help topics and sample included to get you started.
 
 
 ## Customization
-<img align="right" src="gfx/branch-icons.png" width="207" height="195">
+<img align="left" src="gfx/branch-icons.png" width="207" height="195">
 
 * There are three areas to customization
 1.	Templates, HTML Forms. 
@@ -98,7 +98,7 @@ With the latest version of Ideaspad you can create your own mini systems.
 
 # Features
 
-<img align="left" src="gfx/project-plan.png" width="292" height="202">
+<img align="right" src="gfx/project-plan.png" width="292" height="202">
 
 * Rich Text Editor, Ideaspad uses Rich Text File format (or RTF) to allow colour and font * formatting, similar to WordPad.
 * A basic word processor handling text and data.
