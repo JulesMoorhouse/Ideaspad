@@ -31,6 +31,7 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 
 ## Helps you be more organised
 <img align="right" src="gfx/branchicons.png" width="168" height="114">
+
 * Tree navigation, powerful information organisation feature, in a hierarchical manner.
 * Topics, sub topics and icons to help you identify your topic.
 * An information manager (or PIM) a database information.
@@ -44,22 +45,24 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 
 ## What's a template?
 <img align="left" src="gfx/templates-html-forms.png" width="199" height="186">
+
 * Basically a form in which to type your information.
 * It's made using HTML so you can write your own, with a little HTML knowledge.
 
-## The Ultimate Data Entry System, Create your own system
+### The Ultimate Data Entry System, Create your own system
 * Ideaspad gives you powerful features to create your own forms.
 * You can add information which can be used as reference material or just to add your own notes.
 * Create your own customised information collection or data entry system.
 
-## Caters for creativity and future change
+### Caters for creativity and future change
 * Create your own Templates (HTML Forms) add as much complexity as required.
 Template help topics and sample included to get you started.
 
 
+## Allows you to spend less time entering information
 
 <img align="right" src="gfx/rapidentry.png" width="277" height="238">
-## Allows you to spend less time entering information
+
 * Rapid entry, quickly enter your information using a template.
 * You can also drag and drop branches to reorganise topics.
 
@@ -76,6 +79,7 @@ Template help topics and sample included to get you started.
 
 ## Customization
 <img align="right" src="gfx/branch-icons.png" width="207" height="195">
+
 * There are three areas to customization
 1.	Templates, HTML Forms. 
 2.	Topics / Branches which you assign with your templates / rich text. 
