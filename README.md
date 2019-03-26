@@ -26,7 +26,7 @@ Using tree navigation and rich text, a term describing colorful fonts and text. 
  * You can use it like a jotter pad, allowing easy access to topics.
  * Not only a text editor, but a word processor and more.
 
-
+<br/>
 
 ## Templates
 
@@ -41,7 +41,7 @@ Using tree navigation and rich text, a term describing colorful fonts and text. 
  *  You can add information which can be used as reference material or just to add your own notes.
  *  Create your own customised information collection or data entry system.
 
-
+<br/>
 
 ## Caters for creativity and future change
 * Create your own Templates (HTML Forms) add as much complexity as required.
@@ -62,7 +62,7 @@ Template help topics and sample included to get you started.
  * Build up structure information using templates, then you can export it a bigger system!
 
 
-
+<br/>
 
 
 ## Customization
@@ -76,9 +76,8 @@ Template help topics and sample included to get you started.
  3.	General settings and bookmarks. 
 With the latest version of Ideaspad you can create your own mini systems.
 
-
-
-
+<br/>
+<br/>
 
 # Features
 
@@ -108,7 +107,11 @@ With the latest version of Ideaspad you can create your own mini systems.
 * Scrap book.
 * The possibilities are endless!
 
+<br/>
+
 -----
+
+<br/>
 
 # Background
 
@@ -122,6 +125,7 @@ At the time my background was in Visual Basic 6, VB.Net seemed the obvious progr
 
 Although the idea of sharing an MS Access database isn't ideal, this does work with a small number of users. Ideaspad provides some simply locking to make sharing more reliable.
 
+<br/>
 
 # How to build / edit the code
 
@@ -139,9 +143,12 @@ You’ll notice there are two project files for Ideaspad and a number of DLLs su
 
 So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs\IdeasPad\IdeasPadDebug.sln
 
+<br/>
 
 ## Contributing
 Contributions for bug fixing or improvements are welcomed. Feel free to submit a pull request.
+
+<br/>
 
 ## License
 Usage is provided under the [MIT License](http://opensource.org/licenses/mit-license.php). See LICENSE for the full details.
