@@ -30,7 +30,7 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 # What is Ideaspad?
 
 ## Helps you be more organised
-<table>
+<table border="0">
 <tr>
 <td>
 
@@ -52,7 +52,7 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 
 
 ## Templates
-<table>
+<table border="0">
 <tr>
 <td>
 <img alXign="left" src="gfx/templates-html-forms.png" width="199" height="186">
@@ -77,7 +77,7 @@ Template help topics and sample included to get you started.
 
 
 ### Allows you to spend less time entering information
-<table>
+<table border="0">
 <tr>
 <td>
 
@@ -103,7 +103,7 @@ Template help topics and sample included to get you started.
 
 
 ## Customization
-<table>
+<table border="0">
 <tr>
 <td>
 <img alXign="left" src="gfx/branch-icons.png" width="207" height="195">
@@ -122,7 +122,7 @@ With the latest version of Ideaspad you can create your own mini systems.
 
 
 # Features
-<table>
+<table border="0">
 <tr>
 <td>
 
