@@ -43,16 +43,16 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 
 
 
-## Template?
+## Templates
 <img align="left" src="gfx/templates-html-forms.png" width="199" height="186">
 
-  * Basically a form in which to type your information.
-  * It's made using HTML so you can write your own, with a little HTML knowledge.
+&nbsp; * Basically a form in which to type your information.
+&nbsp; * It's made using HTML so you can write your own, with a little HTML knowledge.
 
 ### The Ultimate Data Entry System, Create your own system
-* Ideaspad gives you powerful features to create your own forms.
-* You can add information which can be used as reference material or just to add your own notes.
-* Create your own customised information collection or data entry system.
+&nbsp; * Ideaspad gives you powerful features to create your own forms.
+&nbsp; * You can add information which can be used as reference material or just to add your own notes.
+&nbsp; * Create your own customised information collection or data entry system.
 
 ### Caters for creativity and future change
 * Create your own Templates (HTML Forms) add as much complexity as required.
@@ -80,10 +80,10 @@ Template help topics and sample included to get you started.
 ## Customization
 <img align="left" src="gfx/branch-icons.png" width="207" height="195">
 
-* There are three areas to customization
-  1.	Templates, HTML Forms. 
-  2.	Topics / Branches which you assign with your templates / rich text. 
-  3.	General settings and bookmarks. 
+&nbsp; * There are three areas to customization
+&nbsp; 1.	Templates, HTML Forms. 
+&nbsp; 2.	Topics / Branches which you assign with your templates / rich text. 
+&nbsp; 3.	General settings and bookmarks. 
 With the latest version of Ideaspad you can create your own mini systems.
 
 
