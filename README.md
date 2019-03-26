@@ -43,11 +43,14 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 
 ## Templates
 
+<img align="left" src="gfx/templates-html-forms.png" width="199" height="186">
 
-![](gfx/templates-html-forms.png){: height="186px" width="199px" margin="10px" align="left"}
+<p>
 
  *  Basically a form in which to type your information.
  *  It's made using HTML so you can write your own, with a little HTML knowledge.
+
+</p>
 
 ### The Ultimate Data Entry System, Create your own system
  *  Ideaspad gives you powerful features to create your own forms.
