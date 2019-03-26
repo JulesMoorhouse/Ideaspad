@@ -27,6 +27,7 @@ Using tree navigation and rich text, a term describing colorful fonts and text. 
  * Not only a text editor, but a word processor and more.
 
 
+
 ## Templates
 
 <img align="left" src="gfx/templates-html-forms.png" width="199" height="186">
@@ -39,6 +40,7 @@ Using tree navigation and rich text, a term describing colorful fonts and text. 
  *  Ideaspad gives you powerful features to create your own forms.
  *  You can add information which can be used as reference material or just to add your own notes.
  *  Create your own customised information collection or data entry system.
+
 
 
 ## Caters for creativity and future change
@@ -62,6 +64,7 @@ Template help topics and sample included to get you started.
 
 
 
+
 ## Customization
 
 <img align="left" src="gfx/branch-icons.png" width="207" height="195">
@@ -73,7 +76,9 @@ Template help topics and sample included to get you started.
  3.	General settings and bookmarks. 
 With the latest version of Ideaspad you can create your own mini systems.
 
-<br/>
+
+
+
 
 # Features
 
