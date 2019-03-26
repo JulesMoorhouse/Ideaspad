@@ -29,7 +29,7 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 
 # What is Ideaspad
 
-<img style="float: right;" src="gfx/branchicons.png">
+<img align="right" src="gfx/branchicons.png" width="" height="">
 
 ## Helps you be more organised
 * Tree navigation, powerful information organisation feature, in a hierarchical manner.
@@ -42,7 +42,7 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 
 
 
-<img  src="gfx/templates-html-forms.png">
+<img align="left" src="gfx/templates-html-forms.png" width="199" height="186">
 
 ## What's a template?
 * Basically a form in which to type your information.
@@ -57,7 +57,7 @@ Template help topics and sample included to get you started.
 
 
 
-<img style="float: right;" src="gfx/rapidentry.png">
+<img align="right" src="gfx/rapidentry.png" width="277" height="238">
 
 ## Allows you to spend less time entering information
 * Rapid entry, quickly enter your information using a template.
@@ -90,7 +90,7 @@ With the latest version of Ideaspad you can create your own mini systems.
 
 
 
-<img style="float: right;" src="gfx/branch-icons.png">
+<img align="right" src="gfx/branch-icons.png" width="207" height="195">
 
 # Features
 * Rich Text Editor, Ideaspad uses Rich Text File format (or RTF) to allow colour and font * formatting, similar to WordPad.
@@ -106,7 +106,7 @@ With the latest version of Ideaspad you can create your own mini systems.
 
 
 
-<img src="gfx/project-plan.png">
+<img align="left" src="gfx/project-plan.png" width="292" height="202">
 
 ## Possible Uses
 * Research Data Organizer
