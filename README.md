@@ -7,7 +7,9 @@ Using tree navigation and rich text, a term describing colorful fonts and text. 
 
 #### Contents
 [Background](#background)
+
 [Features](#features)
+
 [How to build / edit the code](#how-to-build-edit-the-code)
 
 -----
