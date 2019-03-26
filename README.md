@@ -33,12 +33,14 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 <table>
 <tr>
 <td>
-* Tree navigation, powerful information organisation feature, in a hierarchical manner.
-* Topics, sub topics and icons to help you identify your topic.
-* An information manager (or PIM) a database information.
-* It could be described as a cardfile or guide card collection.
-* You can use it like a jotter pad, allowing easy access to topics.
-* Not only a text editor, but a word processor and more.
+
+ * Tree navigation, powerful information organisation feature, in a hierarchical manner.
+ * Topics, sub topics and icons to help you identify your topic.
+ * An information manager (or PIM) a database information.
+ * It could be described as a cardfile or guide card collection.
+ * You can use it like a jotter pad, allowing easy access to topics.
+ * Not only a text editor, but a word processor and more.
+
 </td>
 <td>
 <img alXign="right" src="gfx/branchicons.png" width="168" height="114">
@@ -56,13 +58,15 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 <img alXign="left" src="gfx/templates-html-forms.png" width="199" height="186">
 </td>
 <td>
-*  Basically a form in which to type your information.
-*  It's made using HTML so you can write your own, with a little HTML knowledge.
+
+ *  Basically a form in which to type your information.
+ *  It's made using HTML so you can write your own, with a little HTML knowledge.
 
 ### The Ultimate Data Entry System, Create your own system
-*  Ideaspad gives you powerful features to create your own forms.
-*  You can add information which can be used as reference material or just to add your own notes.
-*  Create your own customised information collection or data entry system.
+ *  Ideaspad gives you powerful features to create your own forms.
+ *  You can add information which can be used as reference material or just to add your own notes.
+ *  Create your own customised information collection or data entry system.
+
 </td>
 </tr>
 </table>
@@ -76,13 +80,16 @@ Template help topics and sample included to get you started.
 <table>
 <tr>
 <td>
-* Rapid entry, quickly enter your information using a template.
-* You can also drag and drop branches to reorganise topics.
+
+ * Rapid entry, quickly enter your information using a template.
+ * You can also drag and drop branches to reorganise topics.
 
 ### Build up your own structured system overnight using HTML
-* You can build a basic multi user system overnight, without the need for IT staff.
-* Then if your venture takes off, you can upgrade to a bigger dedicated system.
-* Build up structure information using templates, then you can export it a bigger system!
+
+ * You can build a basic multi user system overnight, without the need for IT staff.
+ * Then if your venture takes off, you can upgrade to a bigger dedicated system.
+ * Build up structure information using templates, then you can export it a bigger system!
+
 </td>
 <td>
 <img aliXgn="right" src="gfx/rapidentry.png" width="277" height="238">
@@ -102,11 +109,13 @@ Template help topics and sample included to get you started.
 <img alXign="left" src="gfx/branch-icons.png" width="207" height="195">
 </td>
 <td>
-*  There are three areas to customization
-1.	Templates, HTML Forms. 
-2.	Topics / Branches which you assign with your templates / rich text. 
-3.	General settings and bookmarks. 
+
+ *  There are three areas to customization
+ 1.	Templates, HTML Forms. 
+ 2.	Topics / Branches which you assign with your templates / rich text. 
+ 3.	General settings and bookmarks. 
 With the latest version of Ideaspad you can create your own mini systems.
+
 </td>
 </tr>
 </table>
@@ -116,14 +125,17 @@ With the latest version of Ideaspad you can create your own mini systems.
 <table>
 <tr>
 <td>
-* Rich Text Editor, Ideaspad uses Rich Text File format (or RTF) to allow colour and font * formatting, similar to WordPad.
-* A basic word processor handling text and data.
-* Branch / Bookmark Icons.
-* Spell Checker, checks both text and templates (HTML Forms) text !!!
-* Use HTML forms to accept information, which is then stored within a database.
-* Rapid Entry.
-* Fully customizable.
-* Import Export features.
+
+ * Rich Text Editor, Ideaspad uses Rich Text File format (or RTF) to allow colour and font 
+ * formatting, similar to WordPad.
+ * A basic word processor handling text and data.
+ * Branch / Bookmark Icons.
+ * Spell Checker, checks both text and templates (HTML Forms) text !!!
+ * Use HTML forms to accept information, which is then stored within a database.
+ * Rapid Entry.
+ * Fully customizable.
+ * Import Export features.
+ 
 </td>
 <td>
 <img align="right" src="gfx/project-plan.png" width="292" height="202">
