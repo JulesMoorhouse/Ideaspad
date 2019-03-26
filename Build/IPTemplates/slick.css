@@ -1,0 +1,33 @@
+td	 {
+	font-size: 10pt;
+	font-family: Arial;
+	color: Blue
+} 
+input	{
+	font-size: 10pt;
+	font-family:Arial
+	border: 1px, solid black;
+	background: #FFFFFF;
+	border-style:solid;
+	border-width:1
+}
+
+textarea	{
+	font-size: 10pt;
+	font-family:Arial
+	border: 1px, solid black;
+	background: #FFFFFF;
+	border-style:solid;
+	border-width:1
+}
+select	{
+	font-size: 10pt;
+	font-family:Arial
+	border: 1px, solid black;
+	background: #FFFFFF;
+	border-style:solid;
+	border-width:1
+}
+body	{
+	border-style:none;
+}

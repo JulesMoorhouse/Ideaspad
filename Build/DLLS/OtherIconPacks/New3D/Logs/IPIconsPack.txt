@@ -1,0 +1,6 @@
+
+The following files specified on the command line: 
+
+	..\..\CodeLibrary\SharewareProjs\IPIconsPack3D\IPIconsPack.sln
+
+could not be found and will not be loaded.

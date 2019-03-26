@@ -1,0 +1,19 @@
+<configuration>
+  <appSettings>
+    <add key="CFU Code" value="10" />
+  </appSettings>
+  <Bookmarks->
+  </Bookmarks->
+  <TemplatesMenu->
+  </TemplatesMenu->
+  <UserTemplates>
+  </UserTemplates>
+  <AllUserTemplates>
+  </AllUserTemplates>
+  <DebugReports>
+    <add key="Report0" value="" />
+    <add key="ItemCount" value="-1" />
+    <add key="ContactName" value="" />
+    <add key="Email" value="" />
+  </DebugReports>
+</configuration>

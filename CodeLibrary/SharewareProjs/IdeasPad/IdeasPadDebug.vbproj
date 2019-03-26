@@ -1,0 +1,501 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{B1254C5F-DE38-4497-94DF-D0D7583F0E7C}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "mcl32.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "IdeasPad"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "IdeasPad"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "adodb"
+                    AssemblyName = "ADODB"
+                    HintPath = "C:\Program Files\Microsoft.NET\Primary Interop Assemblies\adodb.dll"
+                />
+                <Reference
+                    Name = "SharpZipLib"
+                    AssemblyName = "SharpZipLib"
+                    HintPath = "..\..\Components\SharpZipLib.dll"
+                />
+                <Reference
+                    Name = "ADOX"
+                    AssemblyName = "ADOX"
+                    HintPath = "C:\Program Files\Common Files\System\ado\ADOX.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "Microsoft.mshtml"
+                    AssemblyName = "Microsoft.mshtml"
+                    HintPath = "C:\Program Files\Microsoft.NET\Primary Interop Assemblies\Microsoft.mshtml.dll"
+                />
+                <Reference
+                    Name = "SHDocVw"
+                    AssemblyName = "SHDocVw"
+                    HintPath = "..\..\Components\SHDocVw.dll"
+                />
+                <Reference
+                    Name = "AxInterop.SHDocVw"
+                    AssemblyName = "AxInterop.SHDocVw"
+                    HintPath = "..\..\Components\AxInterop.SHDocVw.dll"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic"
+                    AssemblyName = "Microsoft.VisualBasic"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\Microsoft.VisualBasic.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Design.dll"
+                />
+                <Reference
+                    Name = "JRO"
+                    AssemblyName = "JRO"
+                    HintPath = "..\..\Components\JRO.dll"
+                />
+                <Reference
+                    Name = "IPIconsPack"
+                    Project = "{5F419F8F-78F6-413F-83A4-8E0E5ACAE045}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "IPTemplates"
+                    AssemblyName = "IPTemplates"
+                    HintPath = "..\..\..\Build\DLLS\IPTemplates.dll"
+                />
+                <Reference
+                    Name = "MCLCore"
+                    Project = "{1C92A96A-1A9D-44A7-BD6A-26393A931FF5}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "UIStyle"
+                    Project = "{C9793665-FF61-4C82-98D7-0A36A33818C0}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "AppBasicDebug"
+                    Project = "{CF1AED15-D31E-4511-92F3-0C695B374547}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "ProbHandDebug"
+                    Project = "{4879AD5A-9D41-4649-94FE-6A7BF9459510}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "RTFStandDebug"
+                    Project = "{506294B1-626F-435B-8490-BA33A4FE9BCC}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "WinOnlyDebug"
+                    Project = "{108516BC-BE06-4CD6-8D6D-82FFD2C143CB}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "TableEditorDebug"
+                    Project = "{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+                <Import Namespace = "AppBasic" />
+                <Import Namespace = "RTFStand" />
+                <Import Namespace = "WinOnly" />
+                <Import Namespace = "ProbHand" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "branchprops.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "branchprops.resx"
+                    DependentUpon = "branchprops.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "dbchoice.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "dbchoice.resx"
+                    DependentUpon = "dbchoice.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EveryApp.vb"
+                    Link = "..\..\SharedLibraries\StdLibs\EveryApp.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Export.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Export.resx"
+                    DependentUpon = "Export.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "findindb.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "findindb.resx"
+                    DependentUpon = "findindb.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FindInDBDetails.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FindInDBDetails.resx"
+                    DependentUpon = "FindInDBDetails.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Finding.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FindResults.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FindResults.resx"
+                    DependentUpon = "FindResults.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "flame.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FlameDB.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ideaspad.resx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "IdeasPad.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Import.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Import.resx"
+                    DependentUpon = "Import.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "InternalLink.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ipstdonly.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ipstdsplash.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ipstdsplash.resx"
+                    DependentUpon = "ipstdsplash.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "main.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "maint.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "maint.resx"
+                    DependentUpon = "maint.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "mcl32.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewMain.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Newsletter.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Newsletter.resx"
+                    DependentUpon = "Newsletter.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "options.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "options.resx"
+                    DependentUpon = "options.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Pad.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pad.resx"
+                    DependentUpon = "Pad.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "RapidEntry.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RapidEntry.resx"
+                    DependentUpon = "RapidEntry.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "RapidEntryDefaults.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RapidEntryDefaults.resx"
+                    DependentUpon = "RapidEntryDefaults.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Remind.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Remind.resx"
+                    DependentUpon = "Remind.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SelectivePrint.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SelectivePrint.resx"
+                    DependentUpon = "SelectivePrint.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "startup.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "startup.resx"
+                    DependentUpon = "startup.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "strat1.vb"
+                    Link = "..\..\SharedLibraries\StdLibs\strat1.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "strat1about.vb"
+                    Link = "..\..\SharedLibraries\StdLibs\strat1about.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "strat1about.resx"
+                    Link = "..\..\SharedLibraries\StdLibs\strat1about.resx"
+                    DependentUpon = "strat1about.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "strat1licensemanger.vb"
+                    Link = "..\..\SharedLibraries\StdLibs\strat1licensemanger.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "strat1licensemanger.resx"
+                    Link = "..\..\SharedLibraries\StdLibs\strat1licensemanger.resx"
+                    DependentUpon = "strat1licensemanger.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "strat1licensing.vb"
+                    Link = "..\..\SharedLibraries\StdLibs\strat1licensing.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TableEditorFuncs.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Template.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TemplateExport.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TemplateExport.resx"
+                    DependentUpon = "TemplateExport.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TemplateSearch.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TemplateSearch.resx"
+                    DependentUpon = "TemplateSearch.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TemplateSelection.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TemplateSelection.resx"
+                    DependentUpon = "TemplateSelection.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

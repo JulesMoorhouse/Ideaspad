@@ -1,0 +1,52 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ideaspad.de.chm
+Contents file=Table of Contents.hhc
+Default topic=welcome.html
+Display compile progress=No
+Full-text search=Yes
+Language=0x407 German (Germany)
+Title=Ideaspad Help
+
+
+[FILES]
+spelling.html
+support.html
+templatemenu.html
+templatesearch.html
+toolsoptions.html
+welcome.html
+whatsatemplate.html
+buy.html
+importrichtext.html
+sharingtemplates.html
+templatesprovided.html
+bookmarks.html
+branchprops.html
+createtemplates.html
+exporttempldata.html
+exportwizard.html
+importwizard.html
+maintenance.html
+quickstart.html
+gfx\template_topic_create.png
+gfx\bookmark_add.png
+gfx\bookmark_organise.png
+gfx\branch_properties.png
+gfx\branch_properties_icons.png
+gfx\export_wizard.png
+gfx\export_wizard_branch.png
+gfx\import_wizard.png
+gfx\maintenance.png
+gfx\mcl.png
+gfx\mcl_small.png
+gfx\options_templates.png
+gfx\template_data_export.png
+gfx\template_menu_organise.png
+gfx\template_search.png
+gfx\template_selection.png
+rapidentry.html
+gfx\rapidentry.png
+
+[INFOTYPES]
+

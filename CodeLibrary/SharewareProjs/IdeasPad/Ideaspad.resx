@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="dbChoice_MustSelect">
+		<value>You must select a file!</value>
+	</data>
+	<data name="dbChoice_FileNotExist">
+		<value>Warning, the file you have selected does not exist. [CR] If you wish to create / repair &amp; compact an 'Information Base' file [CR] you must select an existing file!</value>
+	</data>
+	<data name="dbChoice_FileCannotFind">
+		<value>This 'Information Base' file cannot be found![CR2]You may wish to remove this listing, this can be[CR]done through the maintenance screen!</value>
+	</data>
+	<data name="dbChoice_TitleInformationBases">
+		<value>Information Bases</value>
+	</data>
+	<data name="Export_FormTitle">
+		<value>Export Wizard</value>
+	</data>
+	<data name="Export_MustSelSomething">
+		<value>You must select something to export!</value>
+	</data>
+	<data name="Export_ButtonExport">
+		<value>&amp;Export</value>
+	</data>
+	<data name="Export_ButtonNext">
+		<value>&amp;Next</value>
+	</data>
+	<data name="Export_OnlyExportDirectChild">
+		<value>You may only export branches and their direct child branches!</value>
+	</data>
+	<data name="Export_FileFilter">
+		<value>[Program] Import/Export File|*.imp</value>
+	</data>
+	<data name="Export_SaveTitle">
+		<value>Please save your export file</value>
+	</data>
+	<data name="Export_MustSpecifyFile">
+		<value>You must specify a filename for your export / import file.</value>
+	</data>
+	<data name="Export_ProcessComplete">
+		<value>The export process is complete!</value>
+	</data>
+	<data name="Export_PerformDependancyCheck">
+		<value>Performing dependency check....</value>
+	</data>
+	<data name="Export_CheckingTopics">
+		<value>Checking topics....</value>
+	</data>
+	<data name="Export_WarningTopic">
+		<value>Topic: [Title] requires a missing user template file</value>
+	</data>
+	<data name="Export_CheckingBookmarks">
+		<value>Checking bookmarks....</value>
+	</data>
+	<data name="Export_WarningMisingBook">
+		<value>Bookmark: [Bookmark] refers to a missing topic</value>
+	</data>
+	<data name="Export_CheckingTemplates">
+		<value>Checking template bookmarks....</value>
+	</data>
+	<data name="Export_WarningMissingTemplFile">
+		<value>Template menu item: [TemplateName] is linked to a missing template file</value>
+	</data>
+	<data name="Export_CannotSelThisTopic">
+		<value>This topic can not be selected as it contains template data.</value>
+	</data>
+	<data name="Ideaspad_EssentialFilesMissing">
+		<value>Some essential program files are missing, please re-install the program!</value>
+	</data>
+	<data name="Ideaspad_PrevConfigFound">
+		<value>A previous configuration has been found would you like to use it?</value>
+	</data>
+	<data name="Ideaspad_LicenseNotAccepted">
+		<value>Your license code was not accepted!</value>
+	</data>
+	<data name="Ideaspad_LicenseAccepted">
+		<value>Your license code was accepted!</value>
+	</data>
+	<data name="Ideaspad_IBFNewer">
+		<value>The 'Information Base' file you have opened was created with a newer version of [Program]! [CR2]You must use the check for updates feature to update your program!</value>
+	</data>
+	<data name="Ideaspad_ErrorThenCFU">
+		<value>[CR2]Please use the 'Check for Updates' feature, which will be shown after this message.[CR]A newer version of the program should have fixed any problems in older versions.[CR]If you have tried the 'Check for Updates' feature and already have the latest version[CR]of the program please refer to the help file for support details.</value>
+	</data>
+	<data name="Ideaspad_IconCompatCFUWarn">
+		<value>The Icon Pack which you are using requires a more up-to-date version of [Program].[CR]Please use the check for updates feature to get the latest version of the program.</value>
+	</data>
+	<data name="Ideaspad_IconCompatCFUError">
+		<value>The Icon Pack which you are using requires a more up-to-date version of [Program].[CR]As this version of program is really old, you MUST use the check for updates feature to continue using the program.</value>
+	</data>
+	<data name="Import_Title">
+		<value>Import Wizard</value>
+	</data>
+	<data name="Import_ProcessComplete">
+		<value>The import process is complete!</value>
+	</data>
+	<data name="Import_FirstSelFile">
+		<value>You must first select an import file!</value>
+	</data>
+	<data name="Import_ButtonImport">
+		<value>&amp;Import</value>
+	</data>
+	<data name="Import_NoneSelected">
+		<value>None Selected</value>
+	</data>
+	<data name="Import_PleaseSelectBranch">
+		<value>Please select a branch!</value>
+	</data>
+	<data name="Import_AnalysingFile">
+		<value>Analysing the import file ....</value>
+	</data>
+	<data name="Import_FinishedAnalysing">
+		<value>Finished analysing the import file ....</value>
+	</data>
+	<data name="Import_WarnNewerVerion">
+		<value>WARNING: This import file was exported from a newer version of [Program]![CR]Please use the 'Check for Updates' feature to download the latest version of the program and retry!</value>
+	</data>
+	<data name="InternalLink_Title">
+		<value>Q&amp;uick Link</value>
+	</data>
+	<data name="InternalLink_Tag">
+		<value>Quick_Link</value>
+	</data>
+	<data name="IpstdOnly_ThanksForEval">
+		<value>Thank you for Evaluating [Program]. Copyright Mindwarp Consultancy Ltd 2004</value>
+	</data>
+	<data name="IpstdOnly_Version">
+		<value>Version</value>
+	</data>
+	<data name="IpstdOnly_HowToBuyURL">
+		<value>How to Buy [Program].url</value>
+	</data>
+	<data name="IpSplash_DevelopedBy">
+		<value>Developed by</value>
+	</data>
+	<data name="IpSplash_StandardVersion">
+		<value>Standard Version</value>
+	</data>
+	<data name="IpSplash_SharewareVersion">
+		<value>Trial Version</value>
+	</data>
+	<data name="IpSplash_LicensedTo">
+		<value>Licensed to :</value>
+	</data>
+	<data name="IpSplash_PressShift">
+		<value>          Press the SHIFT key now to select a different Information Base file.</value>
+	</data>
+	<data name="Main_TemplateNotFound">
+		<value>Template not found, please check you have the required template file!</value>
+	</data>
+	<data name="Main_SomeoneModified">
+		<value>Someone else has modified this topic while you have been using it![CR]Do you wish to overwrite it or cancel any changes you have made?[CR2]The persons user name and modfied date are show below:</value>
+	</data>
+	<data name="Main_DeletedLoose">
+		<value>This topic has been deleted since you started using it!  Any changes you made will be lost!</value>
+	</data>
+	<data name="Main_ChangedLoose">
+		<value>The topic has been changed from a template to RTF!  Any changes you made will be lost!</value>
+	</data>
+	<data name="Main_IdeaspadSharewareLNK">
+		<value>[Program] (Trial Version).lnk</value>
+	</data>
+	<data name="Main_IdeaspadStandardLNK">
+		<value>[Program] 2004 Standard.lnk</value>
+	</data>
+	<data name="Maint_Exceeded">
+		<value>Your 'Information Base' was not added, you may have execeeded the amount allowed!</value>
+	</data>
+	<data name="Maint_YourIBWasAdded">
+		<value>Your 'Information Base' was added!</value>
+	</data>
+	<data name="Maint_WordDescription">
+		<value>Please enter a Word to describe this information!</value>
+	</data>
+	<data name="Maint_InfBaseFilter">
+		<value>Information base file (*.ibf)|*.ibf</value>
+	</data>
+	<data name="Maint_OpenTitle">
+		<value>Now select the Information Base file!</value>
+	</data>
+	<data name="Maint_NoFileSelected">
+		<value>No file was selected</value>
+	</data>
+	<data name="Maint_SaveDefName">
+		<value>Project</value>
+	</data>
+	<data name="Maint_InfBaseFilter">
+		<value>Information base file (*.ibf)|*.ibf</value>
+	</data>
+	<data name="Maint_SaveTitle">
+		<value>Now specify the Information Base file!</value>
+	</data>
+	<data name="Maint_BesideError">
+		<value>Unable to create file! This may be because the program [CR]wasn't able to run fast enough on this computer! Error code [Code]</value>
+	</data>
+	<data name="Maint_NewIBCreated">
+		<value>New Information Base created, now select 'Open Existing Information Base' to open the file!</value>
+	</data>
+	<data name="Maint_RenameSelect">
+		<value>Please ensure that you have the 'Information Base' you wish to rename, from the previous screen selected!</value>
+	</data>
+	<data name="Maint_RenameName">
+		<value>Please enter a new name for the selected 'Information Base'!</value>
+	</data>
+	<data name="Maint_DeleteSelect">
+		<value>Please ensure that you have the 'Information Base' you wish to delete, from the previous screen selected!</value>
+	</data>
+	<data name="Maint_DeleteDenied">
+		<value>Access Denied, you may not delete your last file!</value>
+	</data>
+	<data name="Maint_DeleteConfirm">
+		<value>Please confirm that you wish to delete the 'Information Base' [ShortName] from the system?</value>
+	</data>
+	<data name="Maint_DeleteInUse">
+		<value>The Information Base file may be in use! Can not Delete!</value>
+	</data>
+	<data name="Maint_DeleteSuccess">
+		<value>'Information Base' [ShortName] has been removed from the system!</value>
+	</data>
+	<data name="Maint_Caption">
+		<value>Maintenance</value>
+	</data>
+	<data name="Maint_RepairConfirm">
+		<value>Do you wish to Repair/Compact the selected 'Information Base' file? [CR]File : [File][CR2]This process keeps a backup of your database, just in case the compact [CR]process fails.  By continuing the backup from last time will be deleted! [CR2]Do you wish to proceed?</value>
+	</data>
+	<data name="Maint_RepairSuccess">
+		<value>Repair / Compact completed successfully!</value>
+	</data>
+	<data name="Maint_RepairProblem">
+		<value>There has been a problem, please refer to our web site for help on this matter!</value>
+	</data>
+	<data name="Maint_RepairOptions">
+		<value>Please select which repair feature you'd like to use, either (YES/NO) :- [CR2][TAB]Repair &amp; Compact  = YES[CR2][TAB]OR[CR2][TAB]Data Fix = NO[CR2]NB. Before using the Data Fix feature please gain assistance from [CR]Mindwarp Consultancy Ltd, this can be done via the web site. [CR2]Please ensure that no other user is using the 'Information Base' [CR]before proceeding with either of the repair features.</value>
+	</data>
+	<data name="Maint_RepairFixedButFound">
+		<value>The Data Fix process found a problem and fixed it!</value>
+	</data>
+	<data name="Maint_RepairFixedComplete">
+		<value>The Data Fix process completed!</value>
+	</data>
+	<data name="Maint_RepairNotFixed">
+		<value>The Data Fix process wasn't able to repair the problem, please use the support[CR]feature on the Mindwarp Consultancy Website to gain assistance!</value>
+	</data>
+	<data name="Options_SelectCSS">
+		<value>Select a Colour Scheme file / Cascading Style Sheet</value>
+	</data>
+	<data name="Options_CSSFilter">
+		<value>Colour Scheme file (*.css)|*.css</value>
+	</data>
+	<data name="Options_MustTemplate">
+		<value>If you select to use Templates by default, you must specify a template!</value>
+	</data>
+	<data name="Options_MustTopic">
+		<value>You must select a topic if you want to have a topic displayed at startup!</value>
+	</data>
+	<data name="Options_SpellingURL">
+		<value>http://www.example.com/dictionaries.html</value>
+	</data>
+	<data name="Options_IBFIcons">
+		<value>Information Base Icons</value>
+	</data>
+	<data name="Options_CurrentIconDir">
+		<value>Current icon folder</value>
+	</data>
+	<data name="Options_IconDirTooLong">
+		<value>Your folder is too long, it must be 255 characters or less!</value>
+	</data>
+	<data name="Pad_Viewing">
+		<value>Viewing</value>
+	</data>
+	<data name="Pad_MustSelectParent">
+		<value>You must select a parent branch, or if you haven't got any branches [CR]yet, use 'New Root Branch' from the File menu to create one!</value>
+	</data>
+	<data name="Pad_EnterBranch">
+		<value>Please enter a branch name!</value>
+	</data>
+	<data name="Pad_NewSubBranch">
+		<value>New sub branch</value>
+	</data>
+	<data name="Pad_BranchCharWarn">
+		<value>The '~' is used by the system, please try again!</value>
+	</data>
+	<data name="Pad_MustSelectABranch">
+		<value>You must select a branch first!</value>
+	</data>
+	<data name="Pad_EnterBranchName">
+		<value>Please enter a branch name!</value>
+	</data>
+	<data name="Pad_LoadingSettings">
+		<value>Loading your settings ....</value>
+	</data>
+	<data name="Pad_WelcomeTo">
+		<value>Welcome to</value>
+	</data>
+	<data name="Pad_SevenDaysleft">
+		<value>This trial will expire in seven days or less![CR2]If you like this product and wish to continue using it after the trial [CR]expires you must buy it.  Please see out latest purchasing information [CR]on our web site.  This can be accessed via the 'Help &gt; Purchasing' [CR]option on the menu.</value>
+	</data>
+	<data name="Pad_90To30Message">
+		<value>This version of the program will from now on normally be a 30 day trial.  As you have upgraded from an older version of the program (90 day version) you are entitled to the 90 day (approx) trial. Please ignore any reference to 30 days in the package!</value>
+	</data>
+	<data name="Pad_SevenDayCaption">
+		<value>Expiration reminder</value>
+	</data>
+	<data name="Pad_AskQuickLaunch">
+		<value>Would you like to add a shortcut to this program to your Quick Launch bar?</value>
+	</data>
+	<data name="Pad_MustDeleteChilds">
+		<value>This topic has child branches, you would have to delete them first before deleting this branch!</value>
+	</data>
+	<data name="Pad_WarnNotLinked">
+		<value>WARNING: This branch is not linked anywhere else, by deleting it you will not be able to view it.</value>
+	</data>
+	<data name="Pad_DoDelete">
+		<value>Do you wish to delete this topic?</value>
+	</data>
+	<data name="Pad_EnterRootName">
+		<value>Enter new root topic name!</value>
+	</data>
+	<data name="Pad_PrintTmpMissing">
+		<value>A required file to enable template printing was not found!</value>
+	</data>
+	<data name="Pad_MustUseDelBranch">
+		<value>You must use 'Delete branch' to delete a branch with no sub branches!</value>
+	</data>
+	<data name="Pad_ConfirmDelBranches">
+		<value>Do you wish to delete this branch and all its sub branches?</value>
+	</data>
+	<data name="Pad_MustSelBranchBook">
+		<value>You must select a branch to make a bookmark!</value>
+	</data>
+	<data name="Pad_SpellingSetError">
+		<value>No dictionary has been installed!, please goto the 'Tools' menu and select 'Options', then 'Spelling'.</value>
+	</data>
+	<data name="Pad_TempToRTFWarn">
+		<value>Do you want to use rich text instead of a template? [CR2]WARNING: You will loose any data you have used in the template!</value>
+	</data>
+	<data name="Pad_BrowserSpellOK">
+		<value>Spell check completed OK!</value>
+	</data>
+	<data name="Pad_TlbrTipPrintPage">
+		<value>Print Current Page</value>
+	</data>
+	<data name="Pad_TlbrTipNewRoot">
+		<value>New Root Branch</value>
+	</data>
+	<data name="Pad_TlbrTipNewSub">
+		<value>New Sub Branch</value>
+	</data>
+	<data name="Pad_TlbrTipCut">
+		<value>Cut</value>
+	</data>
+	<data name="Pad_TlbrTipCopy">
+		<value>Copy</value>
+	</data>
+	<data name="Pad_TlbrTipPaste">
+		<value>Paste</value>
+	</data>
+	<data name="Pad_TlbrTipUndo">
+		<value>Undo</value>
+	</data>
+	<data name="Pad_TlbrTipRedo">
+		<value>Redo</value>
+	</data>
+	<data name="Pad_TlbrTipSpelling">
+		<value>Check Spelling</value>
+	</data>
+	<data name="Pad_TlbrTipAlignLeft">
+		<value>Align Left</value>
+	</data>
+	<data name="Pad_TlbrTipAlignCentre">
+		<value>Align Centre</value>
+	</data>
+	<data name="Pad_TlbrTipAlignRight">
+		<value>Align Right</value>
+	</data>
+	<data name="Pad_TlbrTipFontStyle">
+		<value>Font Style</value>
+	</data>
+	<data name="Pad_TlbrTipWordWrap">
+		<value>Word Wrap</value>
+	</data>
+	<data name="Pad_TlbrTipBranchProps">
+		<value>Branch Properties</value>
+	</data>
+	<data name="Pad_TlbrTipRapidEntry">
+		<value>Rapid Entry</value>
+	</data>
+	<data name="Pad_TlbrTipPageColor">
+		<value>Background</value>
+	</data>
+	<data name="Pad_TlbrTipFontBold">
+		<value>Font Bold</value>
+	</data>
+	<data name="Pad_TlbrTipFontItalics">
+		<value>Font Italics</value>
+	</data>
+	<data name="Pad_TlbrTipFontUnderlined">
+		<value>Font Underlined</value>
+	</data>
+	<data name="Pad_TlbrTipFontColour">
+		<value>Font Colour</value>
+	</data>
+	<data name="Pad_TlbrTipInsertGraphic">
+		<value>Insert Graphic</value>
+	</data>
+	<data name="Pad_TlbrTipInsertTable">
+		<value>Insert &amp;Table</value>
+	</data>
+	<data name="Pad_TlbrTipBullets">
+		<value>Bullets</value>
+	</data>
+	<data name="Pad_TlbrTipHighlight">
+		<value>Highlight</value>
+	</data>
+	<data name="Pad_TlbrExtraTipMoveBranchUp">
+		<value>Move branch &amp;up</value>
+	</data>
+	<data name="Pad_TlbrExtraTipMoveBranchDown">
+		<value>Move branch d&amp;own</value>
+	</data>
+	<data name="Pad_TlbrExtraTipMoveBranchTop">
+		<value>Move branch to to&amp;p</value>
+	</data>
+	<data name="Pad_TlbrExtraTipMoveBranchBottom">
+		<value>Move branc&amp;h to bottom</value>
+	</data>
+	<data name="Pad_DefaultTopicChanged">
+		<value>The default startup topic has been changed!</value>
+	</data>
+	<data name="Pad_RapidEntySetWarn">
+		<value>Rapid Entry must have a Default template, please specify one, goto the 'Tools' menu and select 'Options', then 'Templates'. [CR2]Alternatively select a template from the 'Template' menu, then select 'Rapid Entry'.</value>
+	</data>
+	<data name="Pad_NewsBody">
+		<value>mailto:Newsletters-IP@example.com?subject=Newsletter Subscriptions Dept&amp;body=Dear Sirs,  Kindly add me to your [Program] Newsletter!</value>
+	</data>
+	<data name="Pad_NewsFallback">
+		<value>Please check you that you have an email program installed on your computer (e.g. Outlook).[CR]Alternatively, send an email to [Email] to be added to the newsletter mailing list.</value>
+	</data>
+	<data name="Pad_ImageError">
+		<value>A problem has occurred trying to insert your image file.[CR2]The file may be too big or may be an incompatible format. Acceptable formats are BMP, JPG, GIF, ICO, and PNG and others.</value>
+	</data>
+	<data name="Pad_GraphicFilter">
+		<value>Compuserve Graphics Interchange (*.gif)|*.gif|JPEG - JFIF Compliant (*.jpg, *.jif, *.jpeg)|*.jpg;*.jif;*.jpeg|Portable Network Graphics (*.png)|*.png|Windows or OS/2 Bitmap (*.bmp)|*.bmp|Icon file (*.ico)|*.ico|All Files|*.*</value>
+	</data>
+	<data name="Pad_SortAlphaToSeqMsg">
+		<value>[Program] is currently set to alphabetical branch sorting on this computer.[CR](Therefore you would not see any change, by moving this branch)[CR2]Would you like to change to sequence number sorting?</value>
+	</data>
+	<data name="Pad_ProbWithUserIcons">
+		<value>A problem has been found with one of your icons:</value>
+	</data>
+	<data name="Pad_mnuRTFUndo">
+		<value>&amp;Undo</value>
+	</data>
+	<data name="Pad_MenuItem2">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuRTFCut">
+		<value>Cu&amp;t</value>
+	</data>
+	<data name="Pad_mnuRTFCopy">
+		<value>&amp;Copy</value>
+	</data>
+	<data name="Pad_mnuRTFPaste">
+		<value>&amp;Paste</value>
+	</data>
+	<data name="Pad_mnuRTFDelete">
+		<value>&amp;Delete</value>
+	</data>
+	<data name="Pad_MenuItem12">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuRTFFont">
+		<value>&amp;Font...</value>
+	</data>
+	<data name="Pad_mnuRTFBullets">
+		<value>&amp;Bullets...</value>
+	</data>
+	<data name="Pad_mnuRTFImportRTF">
+		<value>&amp;Import RTF</value>
+	</data>
+	<data name="Pad_mnuRTFInsertGrpahics">
+		<value>Insert &amp;Graphics</value>
+	</data>
+	<data name="Pad_mnuRTFEditTable">
+		<value>&amp;Edit Table</value>
+	</data>	
+	<data name="Pad_mnuRTFSelectAll">
+		<value>Select &amp;All</value>
+	</data>
+	<data name="Pad_mnuItemAdd">
+		<value>&amp;Add sub branch</value>
+	</data>
+	<data name="Pad_mnuItemTemplate">
+		<value>Add &amp;template sub branch</value>
+	</data>
+	<data name="Pad_mnuItemRename">
+		<value>&amp;Rename branch</value>
+	</data>
+	<data name="Pad_mnuItemDelete">
+		<value>&amp;Delete branch</value>
+	</data>
+	<data name="Pad_mnuItemDeleteBranches">
+		<value>D&amp;elete branches</value>
+	</data>
+	<data name="Pad_mnuItemMoveToRoot">
+		<value>&amp;Move branch to Root</value>
+	</data>
+	<data name="Pad_MenuItem10">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuItemAddBookmark">
+		<value>Add &amp;Bookmark</value>
+	</data>
+	<data name="Pad_mnuItemSetAsStartup">
+		<value>Set as &amp;Startup Topic</value>
+	</data>
+	<data name="Pad_MenuItem18">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuItemProperties">
+		<value>&amp;Properties</value>
+	</data>
+	<data name="Pad_mnuFile">
+		<value>&amp;File</value>
+	</data>
+	<data name="Pad_mnuFileNewRoot">
+		<value>New &amp;root branch</value>
+	</data>
+	<data name="Pad_mnuFileNewBranch">
+		<value>New &amp;sub branch</value>
+	</data>
+	<data name="Pad_MenuItem5">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuFileImport">
+		<value>&amp;Import</value>
+	</data>
+	<data name="Pad_mnuFileImportWizard">
+		<value>&amp;Wizard (*.imp)</value>
+	</data>
+	<data name="Pad_mnuFileExport">
+		<value>E&amp;xport</value>
+	</data>
+	<data name="Pad_mnuFileExportTempData">
+		<value>&amp;Template Data (*.txt)</value>
+	</data>
+	<data name="Pad_mnuFileExportWizard">
+		<value>&amp;Wizard (*.imp)</value>
+	</data>
+	<data name="Pad_MenuItem16">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuFilePageSetup">
+		<value>Page Set&amp;up</value>
+	</data>
+	<data name="Pad_mnuFilePrint">
+		<value>&amp;Print</value>
+	</data>
+	<data name="Pad_mnuFileSelectivePrint">
+		<value>S&amp;elective Print (RTF)</value>
+	</data>
+	<data name="Pad_MenuItem3">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuFileExit">
+		<value>E&amp;xit</value>
+	</data>
+	<data name="Pad_mnuEdit">
+		<value>&amp;Edit</value>
+	</data>
+	<data name="Pad_mnuEditUndo">
+		<value>&amp;Undo</value>
+	</data>
+	<data name="Pad_mnuEditRedo">
+		<value>&amp;Redo</value>
+	</data>
+	<data name="Pad_MenuItem4">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuEditCut">
+		<value>Cu&amp;t</value>
+	</data>
+	<data name="Pad_mnuEditCopy">
+		<value>&amp;Copy</value>
+	</data>
+	<data name="Pad_mnuEditPaste">
+		<value>&amp;Paste</value>
+	</data>
+	<data name="Pad_MenuItem8">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuEditSelectAll">
+		<value>Select &amp;All</value>
+	</data>
+	<data name="Pad_MenuItem15">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuEditFindReplace">
+		<value>&amp;Find and Replace</value>
+	</data>
+	<data name="Pad_mnuEditFindTopic">
+		<value>Find &amp;Topic</value>
+	</data>
+	<data name="Pad_mnuEditFindTemplateTopic">
+		<value>Find Te&amp;mplate Topic</value>
+	</data>
+	<data name="Pad_MenuItem20">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuView">
+		<value>&amp;View</value>
+	</data>
+	<data name="Pad_mnuViewToolbars">
+		<value>&amp;Toolbars</value>
+	</data>
+	<data name="Pad_mnuViewToolbar1">
+		<value>&amp;Standard</value>
+	</data>
+	<data name="Pad_mnuViewToolbar2">
+		<value>&amp;Tree</value>
+	</data>
+	<data name="Pad_mnuViewToolbar3">
+		<value>&amp;Fonts Formatting</value>
+	</data>
+	<data name="Pad_mnuViewToolbar4">
+		<value>S&amp;earch</value>
+	</data>
+	<data name="mnuViewToolbarReset">
+		<value>&amp;Reset Positions</value>
+	</data>
+	<data name="Pad_mnuViewWordWrap">
+		<value>&amp;Word Wrap</value>
+	</data>
+	<data name="Pad_mnuViewAlwaysOnTop">
+		<value>&amp;Always on Top</value>
+	</data>
+	<data name="Pad_mnuInsert">
+		<value>&amp;Insert</value>
+	</data>
+	<data name="Pad_mnuInsertDateTime">
+		<value>Date / &amp;Time</value>
+	</data>
+	<data name="Pad_mnuInsertSymbol">
+		<value>&amp;Symbol</value>
+	</data>
+	<data name="Pad_mnuInsertBullets">
+		<value>&amp;Bullets</value>
+	</data>
+	<data name="Pad_mnuInsertGraphics">
+		<value>&amp;Graphics</value>
+	</data>
+	<data name="Pad_mnuInsertTable">
+		<value>&amp;Table</value>
+	</data>	
+	<data name="Pad_mnuInsertLinkToFile">
+		<value>Link to &amp;File</value>
+	</data>
+	<data name="Pad_mnuInsertHyperlink">
+		<value>Hyperlin&amp;k</value>
+	</data>
+	<data name="Pad_mnuInsertQuickLink">
+		<value>&amp;Quick / Internal Link</value>
+	</data>
+	<data name="Pad_mnuFormat">
+		<value>F&amp;ormat</value>
+	</data>
+	<data name="Pad_mnuFormatFont">
+		<value>&amp;Font</value>
+	</data>
+	<data name="Pad_mnuFormatBackground">
+		<value>Bac&amp;kground</value>
+	</data>
+	<data name="Pad_mnuFormatChangeCase">
+		<value>Change Cas&amp;e</value>
+	</data>
+	<data name="Pad_mnuFormatChangeCaseUpper">
+		<value>&amp;Upper</value>
+	</data>
+	<data name="Pad_mnuFormatChangeCaseLower">
+		<value>&amp;Lower</value>
+	</data>
+	<data name="Pad_mnuFormatChangeCaseProper">
+		<value>&amp;Proper</value>
+	</data>
+	<data name="Pad_mnuFormatChangeCaseToggle">
+		<value>&amp;Toggle</value>
+	</data>
+	<data name="Pad_mnuBookmarks">
+		<value>&amp;Bookmarks</value>
+	</data>
+	<data name="Pad_mnuTemplates">
+		<value>Te&amp;mplates</value>
+	</data>
+	<data name="Pad_mnuTemplatesSelect">
+		<value>&amp;Select Template</value>
+	</data>
+	<data name="Pad_mnuTemplatesOrganise">
+		<value>&amp;Organise Templates Menu</value>
+	</data>
+	<data name="Pad_mnuTemplatesRapidEntry">
+		<value>Rapid &amp;Entry</value>
+	</data>
+	<data name="Pad_mnuTemplateToRTF">
+		<value>Template =&gt; &amp;RTF</value>
+	</data>
+	<data name="Pad_mnuTemplateTextSize">
+		<value>Te&amp;xt Size</value>
+	</data>
+	<data name="Pad_mnuTemplateTextSizeLarger">
+		<value>&amp;Larger</value>
+	</data>
+	<data name="Pad_mnuTemplateTextSizeSmaller">
+		<value>&amp;Smaller</value>
+	</data>
+	<data name="Pad_mnuTemplatesSep">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuTools">
+		<value>&amp;Tools</value>
+	</data>
+	<data name="Pad_mnuToolsSpelling">
+		<value>&amp;Spelling</value>
+	</data>
+	<data name="Pad_MenuItem17">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuToolsRefresh">
+		<value>&amp;Refresh tree</value>
+	</data>
+	<data name="Pad_mnuToolsExpandAll">
+		<value>&amp;Expand All</value>
+	</data>
+	<data name="Pad_mnuToolsCollapseAll">
+		<value>&amp;Collapse All</value>
+	</data>
+	<data name="Pad_MenuItem13">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuToolsOptions">
+		<value>&amp;Options</value>
+	</data>
+	<data name="Pad_mnuHelp">
+		<value>&amp;Help</value>
+	</data>
+	<data name="Pad_mnuHelpTopics">
+		<value>&amp;Help Topics</value>
+	</data>
+	<data name="Pad_mnuHelpGettingStarted">
+		<value>&amp;Quick Start</value>
+	</data>
+	<data name="Pad_MenuItem1">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuHelpStartup">
+		<value>Sh&amp;ow Startup Page</value>
+	</data>
+	<data name="Pad_mnuHelpCFU">
+		<value>&amp;Check for updates</value>
+	</data>
+	<data name="Pad_mnuHelpSupport">
+		<value>Support I&amp;nfo</value>
+	</data>
+	<data name="Pad_MenuItem9">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuHelpBuy">
+		<value>&amp;Purchasing</value>
+	</data>
+	<data name="Pad_mnuHelpTipDay">
+		<value>&amp;Tip of the Day</value>
+	</data>
+	<data name="Pad_mnuHelpSubscribe">
+		<value>&amp;Subscribe to Newsletter</value>
+	</data>
+	<data name="Pad_mnuHelpEnterCode">
+		<value>&amp;Enter License Code</value>
+	</data>
+	<data name="Pad_MenuItem6">
+		<value>-</value>
+	</data>
+	<data name="Pad_mnuHelpLicense">
+		<value>&amp;License Agreement</value>
+	</data>
+	<data name="Pad_mnuHelpAbout">
+		<value>&amp;About</value>
+	</data>
+	<data name="Pad_mnuBookmarksAdd">
+		<value>&amp;Add to Bookmarks</value>
+	</data>
+	<data name="Pad_mnuBookmarksRemove">
+		<value>&amp;Organise Bookmarks</value>
+	</data>
+	<data name="Pad_MenuItem19">
+		<value>-</value>
+	</data>
+	<data name="Pad_MenuItem11">
+		<value>-</value>
+	</data>
+	<data name="ctmNDMoveHere">
+		<value>&amp;Move branches here</value>
+	</data>
+	<data name="Pad_ctmNDCopyBranchHere">
+		<value>C&amp;opy branch here</value>
+	</data>
+	<data name="Pad_ctmNDMoveBranchHere">
+		<value>Mo&amp;ve branch here</value>
+	</data>
+	<data name="Pad_ctmNDLinkBranchHere">
+		<value>Li&amp;nk branch here</value>
+	</data>
+	<data name="Pad_MenuItem7">
+		<value>-</value>
+	</data>
+	<data name="Pad_ctmNDCancel">
+		<value>C&amp;ancel</value>
+	</data>
+	<data name="Pad_ContextMenuHTMLView">
+		<value>&amp;View Source</value>
+	</data>
+	<data name="Pad_ContextMenuHTMLPrint">
+		<value>Pr&amp;int</value>
+	</data>
+	<data name="Pad_mnuHelpInstallPack">
+		<value>&amp;Install [Program] add-on</value>
+	</data>
+	<data name="Pad_TemplateItemNone">
+		<value>none</value>
+	</data>
+	<data name="Pad_mnuTemplateViewSource">
+		<value>V&amp;iew Source</value>
+	</data>
+	<data name="Pad_ProblemWithFile">
+		<value>There was a problem opening the file!</value>
+	</data>
+	<data name="Pad_ctmNDMoveHere">
+		<value>&amp;Move branches here</value>
+	</data>
+	<data name="Pad_CorruptIB">
+		<value>Your 'Information Base' file may have become corrupted, please use the Maintenance -&gt; Repair feature to fix the problem!</value>
+	</data>
+	<data name="Pad_NoResults">
+		<value>No results found!</value>
+	</data>
+	<data name="RapEnt_MustFieldTopicname">
+		<value>You MUST provide a topic name in your chosen field / item! [CR2][FormUsage][CR2]If you wish to proceed and loose your changes click YES </value>
+	</data>
+	<data name="RapEnt_EnterTopicName">
+		<value>You must enter a topic / branch name in your chosen field / item!</value>
+	</data>
+	<data name="RapEnt_ChkUseItemHas">
+		<value>Item '[Name]' has a value!</value>
+	</data>
+	<data name="RapEnt_ChkUseDropHas">
+		<value>The drop down list '[Name]' has a value, this may the default value!</value>
+	</data>
+	<data name="Remind_Goodwill">
+		<value>As matter of 'Good Will' to customers who may have vital or important information held within [CR]the program, you may use the 'Save to File' feature.  This feature will allow you to have your [CR]information put into an RTF (Rich Text Format) document file.  This can then be open in a [CR]word processing package. e.g. Wordpad.[CR2]If you wish to proceed click YES.</value>
+	</data>
+	<data name="Remind_SaveFile">
+		<value>Project</value>
+	</data>
+	<data name="Remind_SaveFilter">
+		<value>Rich text file| *.rtf</value>
+	</data>
+	<data name="Remind_SaveCreated">
+		<value>File Created!</value>
+	</data>
+	<data name="Remind_BuyURL">
+		<value>http://www.example.com/buy.php</value>
+	</data>
+	<data name="Remind_RemainLabel">
+		<value>[DAYS] days remaining of evaluation period!</value>
+	</data>
+	<data name="SelPrint_ExportCaption">
+		<value>Selective RTF Export</value>
+	</data>
+	<data name="SelPrint_ButtonExport">
+		<value>&amp;Export</value>
+	</data>
+	<data name="SelPrint_ChkExport">
+		<value>Show topic / branch names in file</value>
+	</data>
+	<data name="SelPrint_PrintCaption">
+		<value>Selective RTF Print</value>
+	</data>
+	<data name="SelPrint_ButtonPrint">
+		<value>&amp;Print</value>
+	</data>
+	<data name="SelPrint_ChkPrint">
+		<value>Show topic / branch names on print out</value>
+	</data>
+	<data name="SelPrint_ButtonClearAll">
+		<value>C&amp;lear All</value>
+	</data>
+	<data name="SelPrint_ButtonSelectAll">
+		<value>Select &amp;All</value>
+	</data>
+	<data name="SelPrint_ExportFileName">
+		<value>Project</value>
+	</data>
+	<data name="SelPrint_ExportFilter">
+		<value>Rich text file (*.rtf)|*.rtf</value>
+	</data>
+	<data name="SelPrint_ExportFileCaption">
+		<value>Now specify the Information Base file!</value>
+	</data>
+	<data name="Startup_MustSpecifyName">
+		<value>You must specify a name for your information! Please re-run this program!</value>
+	</data>
+	<data name="Startup_MustCreate">
+		<value>You must create an 'Information Base' file!</value>
+	</data>
+	<data name="Startup_TrialNotice">
+		<value>Please make a written note of the date you installed [CR]this software as your 30 day (approx) trial of [Program] will start [CR]on that date! [CR2]Thank you for choosing to evaluate this software![CR2]Mindwarp Consultancy Ltd. 2004</value>
+	</data>
+	<data name="Startup_CreatedSuccess">
+		<value>File created sucessfully!</value>
+	</data>
+	<data name="TempEx_LoadingFile">
+		<value>Loading template...</value>
+	</data>
+	<data name="TempEx_AnalysingFile">
+		<value>Analysing template...</value>
+	</data>
+	<data name="TempEx_GeneratingFile">
+		<value>Generating file...</value>
+	</data>
+	<data name="TempEx_Done">
+		<value>Done...</value>
+	</data>
+	<data name="TempEx_CreatedSuccess">
+		<value>File created sucessfully!</value>
+	</data>
+	<data name="TempEx_AccessDenied">
+		<value>Access Denied!</value>
+	</data>
+	<data name="TempSel_Loading">
+		<value>Loading your template file ....</value>
+	</data>
+	<data name="TempSel_NoID">
+		<value>The Template you have chosen does not have a Template ID, please see help topic on creating templates!</value>
+	</data>
+	<data name="TempSel_CheckUsage">
+		<value>Checking for template usage ....</value>
+	</data>
+	<data name="TempSel_IDAlready">
+		<value>The Template ID is already in use by a system template!</value>
+	</data>
+	<data name="TempSel_Validating">
+		<value>Validating your template file ....</value>
+	</data>
+	<data name="TempSel_SameID">
+		<value>A template with the same identity with different fields has already been used! [CR]Please ensure you wish to proceed, information may be lost!</value>
+	</data>
+	<data name="Strat1LM_RevokeWarning">
+		<value>WARNING: Do not proceed unless you are 100% sure you wish to Revoke the selected user.[CR]They will no longer be able to access this 'Information Base' file.[CR2]Proceed?</value>
+	</data>
+	<data name="Strat1_Revoked">
+		<value>Your license has been revoked by another user on your network, please contact your systems administrator!</value>
+	</data>
+	<data name="Strat1LM_Exceed">
+		<value>The user license will not permit any more users, please revoke more user(s)</value>
+	</data>
+	<data name="Strat1LM_btnProceed">
+		<value>&amp;Proceed</value>
+	</data>
+	<data name="Strat1LM_Added">
+		<value>You have been added to the system, you may now proceed!</value>
+	</data>
+	<data name="Strat1_AccessDenied">
+		<value>Access Denied! There are insufficient users licenses.[CR2]To gain access to the system you must have a user license![CR]Either revoke an existing license from another user or buy further licenses.</value>
+	</data>
+	<data name="TempSearch_OperatorEqualTo">
+		<value>Equal to</value>
+	</data>
+	<data name="TempSearch_OperatorNotEqualTo">
+		<value>Not Equal to</value>
+	</data>
+	<data name="TempSearch_OperatorLike">
+		<value>Like</value>
+	</data>
+	<data name="NewsLetters_Welcome">
+		<value>Welcome to [ProdName]</value>
+	</data>
+	<data name="NewsLetters_InFuture">
+		<value>In the future, we'd like to send you update newsletters about future releases also promotional offer emails. </value>
+	</data>
+	<data name="NewsLetters_ContactName">
+		<value>Your name :</value>
+	</data>
+	<data name="NewsLetters_Email">
+		<value>Email :</value>
+	</data>
+	<data name="NewsLetters_Send">
+		<value>&amp;Send</value>
+	</data>
+	<data name="NewsLetters_DontShowMeAgain">
+		<value>Don't show me this again!</value>
+	</data>
+	<data name="Newsletters_IDontWishRecieve">
+		<value>I do not wish to receive emails / newsletters</value>
+	</data>
+	<data name="Newsletters_PleaseCheckEmail">
+		<value>Please check your email address</value>
+	</data>
+	<data name="Newsletters_InformationSentOK">
+		<value>Information Sent OK</value>
+	</data>
+	<data name="Newsletters_InformationFailedToSend">
+		<value>Information Failed to Send</value>
+	</data>
+	<data name="Flame_SorryAdminRights">
+		<value>Sorry you do not have Administrator rights!</value>
+	</data>
+	<data name="Ideaspad_AdminRightsRequired">
+		<value>The program has been unable to write settings, please ensure[CR]you have Administrator privileges and try again!</value>
+	</data>
+	<data name="NewMain_IconPackVer">
+		<value>You may not use the current Icon Pack as it was designed for an older version of the program!</value>
+	</data>
+	<data name="Pad_SixMonthCheck">
+		<value>This program is at least six months old, there may now be a newser version.[CR2]Would you like to check for updates?</value>
+	</data>
+	<data name="Pad_SixMonthTitle">
+		<value>Six Month Update Check</value>
+	</data>
+	<data name="Pad_UnexpectedErrorOccured">
+		<value>There was an unexpected Error!</value>
+	</data>
+	<data name="Main_AtSomePoint">
+		<value>At some point the program has created a problem report.[CR2]Please send us this report.</value>
+	</data>
+</root>

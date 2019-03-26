@@ -1,0 +1,114 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IdeasPad", "IdeasPadDebug.vbproj", "{B1254C5F-DE38-4497-94DF-D0D7583F0E7C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AppBasic", "..\..\SharedLibraries\AppBasic\AppBasicDebug.vbproj", "{CF1AED15-D31E-4511-92F3-0C695B374547}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MCLCore", "..\MCLCore\MCLCore.vbproj", "{1C92A96A-1A9D-44A7-BD6A-26393A931FF5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UIStyle", "..\UIStyle\UIStyle.vbproj", "{C9793665-FF61-4C82-98D7-0A36A33818C0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IPIconsPack", "..\IPIconsPack\IPIconsPack.vbproj", "{5F419F8F-78F6-413F-83A4-8E0E5ACAE045}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IPTemplates", "..\IPTemplates\IPTemplates.vbproj", "{EBDB0DB8-B493-4AF5-AAB0-34AC6A9C0008}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProbHand", "..\..\SharedLibraries\ProbHand\ProbHandDebug.vbproj", "{4879AD5A-9D41-4649-94FE-6A7BF9459510}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TableEditor", "..\..\SharedLibraries\TableEditor\TableEditor\TableEditorDebug.vbproj", "{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinOnly", "..\..\SharedLibraries\WinOnly\WinOnlyDebug.vbproj", "{108516BC-BE06-4CD6-8D6D-82FFD2C143CB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RTFStand", "..\..\SharedLibraries\RTFStand\RTFStandDebug.vbproj", "{506294B1-626F-435B-8490-BA33A4FE9BCC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Just Ideaspad.exe = Just Ideaspad.exe
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B1254C5F-DE38-4497-94DF-D0D7583F0E7C}.Debug.ActiveCfg = Debug|.NET
+		{B1254C5F-DE38-4497-94DF-D0D7583F0E7C}.Debug.Build.0 = Debug|.NET
+		{B1254C5F-DE38-4497-94DF-D0D7583F0E7C}.Just Ideaspad.exe.ActiveCfg = Release|.NET
+		{B1254C5F-DE38-4497-94DF-D0D7583F0E7C}.Just Ideaspad.exe.Build.0 = Release|.NET
+		{B1254C5F-DE38-4497-94DF-D0D7583F0E7C}.Release.ActiveCfg = Release|.NET
+		{B1254C5F-DE38-4497-94DF-D0D7583F0E7C}.Release.Build.0 = Release|.NET
+		{CF1AED15-D31E-4511-92F3-0C695B374547}.Debug.ActiveCfg = Debug|.NET
+		{CF1AED15-D31E-4511-92F3-0C695B374547}.Debug.Build.0 = Debug|.NET
+		{CF1AED15-D31E-4511-92F3-0C695B374547}.Just Ideaspad.exe.ActiveCfg = Just Ideaspad.exe|.NET
+		{CF1AED15-D31E-4511-92F3-0C695B374547}.Just Ideaspad.exe.Build.0 = Just Ideaspad.exe|.NET
+		{CF1AED15-D31E-4511-92F3-0C695B374547}.Release.ActiveCfg = Release|.NET
+		{CF1AED15-D31E-4511-92F3-0C695B374547}.Release.Build.0 = Release|.NET
+		{1C92A96A-1A9D-44A7-BD6A-26393A931FF5}.Debug.ActiveCfg = Debug|.NET
+		{1C92A96A-1A9D-44A7-BD6A-26393A931FF5}.Debug.Build.0 = Debug|.NET
+		{1C92A96A-1A9D-44A7-BD6A-26393A931FF5}.Just Ideaspad.exe.ActiveCfg = Release|.NET
+		{1C92A96A-1A9D-44A7-BD6A-26393A931FF5}.Just Ideaspad.exe.Build.0 = Release|.NET
+		{1C92A96A-1A9D-44A7-BD6A-26393A931FF5}.Release.ActiveCfg = Release|.NET
+		{1C92A96A-1A9D-44A7-BD6A-26393A931FF5}.Release.Build.0 = Release|.NET
+		{C9793665-FF61-4C82-98D7-0A36A33818C0}.Debug.ActiveCfg = Debug|.NET
+		{C9793665-FF61-4C82-98D7-0A36A33818C0}.Debug.Build.0 = Debug|.NET
+		{C9793665-FF61-4C82-98D7-0A36A33818C0}.Just Ideaspad.exe.ActiveCfg = Release|.NET
+		{C9793665-FF61-4C82-98D7-0A36A33818C0}.Just Ideaspad.exe.Build.0 = Release|.NET
+		{C9793665-FF61-4C82-98D7-0A36A33818C0}.Release.ActiveCfg = Release|.NET
+		{C9793665-FF61-4C82-98D7-0A36A33818C0}.Release.Build.0 = Release|.NET
+		{5F419F8F-78F6-413F-83A4-8E0E5ACAE045}.Debug.ActiveCfg = Debug|.NET
+		{5F419F8F-78F6-413F-83A4-8E0E5ACAE045}.Debug.Build.0 = Debug|.NET
+		{5F419F8F-78F6-413F-83A4-8E0E5ACAE045}.Just Ideaspad.exe.ActiveCfg = Just Ideaspad.exe|.NET
+		{5F419F8F-78F6-413F-83A4-8E0E5ACAE045}.Just Ideaspad.exe.Build.0 = Just Ideaspad.exe|.NET
+		{5F419F8F-78F6-413F-83A4-8E0E5ACAE045}.Release.ActiveCfg = Release|.NET
+		{5F419F8F-78F6-413F-83A4-8E0E5ACAE045}.Release.Build.0 = Release|.NET
+		{EBDB0DB8-B493-4AF5-AAB0-34AC6A9C0008}.Debug.ActiveCfg = Debug|.NET
+		{EBDB0DB8-B493-4AF5-AAB0-34AC6A9C0008}.Debug.Build.0 = Debug|.NET
+		{EBDB0DB8-B493-4AF5-AAB0-34AC6A9C0008}.Just Ideaspad.exe.ActiveCfg = Just Ideaspad.exe|.NET
+		{EBDB0DB8-B493-4AF5-AAB0-34AC6A9C0008}.Just Ideaspad.exe.Build.0 = Just Ideaspad.exe|.NET
+		{EBDB0DB8-B493-4AF5-AAB0-34AC6A9C0008}.Release.ActiveCfg = Release|.NET
+		{EBDB0DB8-B493-4AF5-AAB0-34AC6A9C0008}.Release.Build.0 = Release|.NET
+		{4879AD5A-9D41-4649-94FE-6A7BF9459510}.Debug.ActiveCfg = Debug|.NET
+		{4879AD5A-9D41-4649-94FE-6A7BF9459510}.Debug.Build.0 = Debug|.NET
+		{4879AD5A-9D41-4649-94FE-6A7BF9459510}.Just Ideaspad.exe.ActiveCfg = Release|.NET
+		{4879AD5A-9D41-4649-94FE-6A7BF9459510}.Just Ideaspad.exe.Build.0 = Release|.NET
+		{4879AD5A-9D41-4649-94FE-6A7BF9459510}.Release.ActiveCfg = Release|.NET
+		{4879AD5A-9D41-4649-94FE-6A7BF9459510}.Release.Build.0 = Release|.NET
+		{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}.Debug.ActiveCfg = Debug|.NET
+		{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}.Debug.Build.0 = Debug|.NET
+		{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}.Just Ideaspad.exe.ActiveCfg = Release|.NET
+		{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}.Just Ideaspad.exe.Build.0 = Release|.NET
+		{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}.Release.ActiveCfg = Release|.NET
+		{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}.Release.Build.0 = Release|.NET
+		{108516BC-BE06-4CD6-8D6D-82FFD2C143CB}.Debug.ActiveCfg = Debug|.NET
+		{108516BC-BE06-4CD6-8D6D-82FFD2C143CB}.Debug.Build.0 = Debug|.NET
+		{108516BC-BE06-4CD6-8D6D-82FFD2C143CB}.Just Ideaspad.exe.ActiveCfg = Release|.NET
+		{108516BC-BE06-4CD6-8D6D-82FFD2C143CB}.Just Ideaspad.exe.Build.0 = Release|.NET
+		{108516BC-BE06-4CD6-8D6D-82FFD2C143CB}.Release.ActiveCfg = Release|.NET
+		{108516BC-BE06-4CD6-8D6D-82FFD2C143CB}.Release.Build.0 = Release|.NET
+		{506294B1-626F-435B-8490-BA33A4FE9BCC}.Debug.ActiveCfg = Debug|.NET
+		{506294B1-626F-435B-8490-BA33A4FE9BCC}.Debug.Build.0 = Debug|.NET
+		{506294B1-626F-435B-8490-BA33A4FE9BCC}.Just Ideaspad.exe.ActiveCfg = Just Ideaspad.exe|.NET
+		{506294B1-626F-435B-8490-BA33A4FE9BCC}.Just Ideaspad.exe.Build.0 = Just Ideaspad.exe|.NET
+		{506294B1-626F-435B-8490-BA33A4FE9BCC}.Release.ActiveCfg = Release|.NET
+		{506294B1-626F-435B-8490-BA33A4FE9BCC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

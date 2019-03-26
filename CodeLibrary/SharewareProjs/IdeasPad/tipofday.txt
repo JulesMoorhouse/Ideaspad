@@ -1,0 +1,23 @@
+Welcome to Ideaspad! We hope you enjoy using our program.  For details about this and other products please visit our web site at       http://www.example.com.
+You can change the default font for text and for the tree from the menu "Tools -> Options"
+To select all of the text in the right hand pane press Ctrl + A.
+You can append text to the clipboard by holding the Shift key down while typing Ctrl + C or Ctrl + X, or when clicking the Cut or Copy buttons.
+If you drag and drop tree branch you can copy, move or link to other branches.  Click next tip for link help.
+Link or linking allows you to have the same text attached to different branches.  This could be useful when you have a huge tree and want to simply update reoccurring topics.
+Use F1 on any screen for specific help.
+You can have up to 4 different 'Information Base Files' with the shareware version and up to 20 with the standard version. 
+Remember to tell your friends about Ideaspad.
+You can ensure that you have the latest version of this software by using the 'Check for Updates' feature on the menu "Help -> Check for Updates".
+To automatically start your 'Information base' file, use the check box 'Don't ask me again' on the selection screen.
+When you're using option or dialog screens you can press the ESC key to close them.
+You can use the mnemonics, the File and Help menu have F and H underlined, use the Alt key and the letter to access the features.
+You can undo or redo previous actions by pressing Ctrl + Z or Ctrl + Y. You can also access these options using the tool bar or the main menu.
+You can use the options dialog "Tools > Options" to change the sorting order of tree branches.
+To find out what a tool is, hold your cursor over the tool and a ToolTip will appear.
+Export your data / system to your friends or colleagues using the Import / Export wizards, see the file menu.
+For product purchasing information for Mindwarp Consultancy software please refer to our web site.
+To turn off this window, uncheck the box marked "Show tips at startup". To re-enable it, go to "Help -> Tip of the day" and check the box again.
+To quickly enter information using a template use the 'Rapid Entry' feature from the toolbar.
+For a wealth of help information see the help menu.
+Quickly add a template topic, right click on a branch and select 'Add template sub branch', then a template. You must previous added templates to use ths.
+Insert graphics files easily into your rich text topic, by using the button on the toolbar.

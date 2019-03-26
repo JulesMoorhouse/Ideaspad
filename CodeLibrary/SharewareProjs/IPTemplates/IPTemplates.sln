@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IPTemplates", "IPTemplates.vbproj", "{EBDB0DB8-B493-4AF5-AAB0-34AC6A9C0008}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EBDB0DB8-B493-4AF5-AAB0-34AC6A9C0008}.Debug.ActiveCfg = Debug|.NET
+		{EBDB0DB8-B493-4AF5-AAB0-34AC6A9C0008}.Debug.Build.0 = Debug|.NET
+		{EBDB0DB8-B493-4AF5-AAB0-34AC6A9C0008}.Release.ActiveCfg = Release|.NET
+		{EBDB0DB8-B493-4AF5-AAB0-34AC6A9C0008}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,388 @@
+
+<HTML>
+<Head>
+<body bgcolor="#FFFFC0">
+<Style>
+td	 {
+	font-size: 11pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+body	 {
+	font-size: 11pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+h1	 {
+	font-size: 13pt;
+	font-weight: bold;
+	font-family: Arial;
+}
+</Style>
+<Title>Create your own templates</Title>
+</Head>
+<font face="Arial" size="2">
+<table border="0" width="100%" height="100%"><tr><TD height="10">
+	<table border="1" bordercolor="#C0C0C0" cellpadding="5" cellspacing="0" width="100%"  bgcolor="#ffffff"><tr><td>
+		<table border="0"  cellpadding="0" cellspacing="0" width="100%"><tr><td width>
+			<font face="Arial" Size="5">Create your own templates</font>
+		</td>
+		<td align="Right" valign="center">
+		<table border="0" cellpadding="0" cellspacing="0"><tr><td NOWRAP>
+			&nbsp;&nbsp;<font face="Arial" Size="6">IDEASPAD</font>&nbsp;&nbsp;
+		</td>
+			<td>
+				<img src="gfx/mcl_small.png">
+				</td></tr></table>
+		</td>
+	</tr></table>
+	</td></tr></table>
+</td></tr><tr><td valign="top">
+<BR><BR>
+<h1>Template / HTML Forms</h1>
+Templates are written in HTML, using FORMS to provide input boxes etc.
+<BR><BR>
+
+If you're familiar with writing HTML Forms, you should have no problem creating a template.
+<BR>
+If you're not, please gain some knowledge first!
+
+<BR><BR>
+If you haven't already got one, create a Directory / Folder in your Ideaspad program directory called "Layouts".
+<BR>
+You can now create your template files, and place them into this directory.<BR><BR>
+<font color="#0000ff">Or download them from our web site, please <a href="sharingtemplates.html">click here</a> for more information.</font><BR><BR>
+The template file must have a .HTML file extension, e.g. Invoice.html.
+<BR><BR>
+
+<h1>Template file requirements</h1>
+
+&nbsp;&nbsp;&nbsp;- No Submit or Reset button<BR>
+&nbsp;&nbsp;&nbsp;- No value tag<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e.g.<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;text&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactBirthdayYear&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+size</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;5&quot;&gt;</font>
+
+<BR><BR>
+
+&nbsp;&nbsp;&nbsp;- You must have hidden tag called TemplateID<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e.g.<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;hidden&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;TemplateID&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+value</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;MyTemplate&quot;&gt;</font>
+
+
+
+<br><br>
+
+<font color="#0000ff">
+Standard templates are different to the templates you create yourself, as they do not require a TemplateID, however feel free to use the 'View Source' feature on the Templates menu.
+</font>
+<BR><BR>
+
+<h1>Example of a template</h1>
+
+
+
+Other features in the program rely on the Name you give each form element e.g. ContactAddress1.<BR>
+Therefore please be descriptive.
+<BR><BR>
+<Center>
+<Table border="0" bgcolor="White"><tr><td>
+
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">HTML</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">form</font><font face="Courier New" size="2pt" color="#ff00ff"></font>
+<font face="Courier New" size="2pt" color="#ff0000">name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;&quot;</font><font face="Courier New" size="2pt" color="#ff00ff"></font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+
+<br>
+
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;hidden&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;TemplateID&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+value</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;MyTemplate&quot;&gt;</font>
+<br><br>
+<font face="Courier New" size="2pt">
+Contact name:</font><font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;text&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactName&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+size</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;30&quot;&gt;</font>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<BR><BR>
+<font face="Courier New" size="2pt">
+Address:</font><br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;text&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactAddress1&quot;
+</font><font face="Courier New" size="2pt" color="#ff0000">
+size</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;30&quot;&gt;</font>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;text&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactAddress2&quot;
+</font><font face="Courier New" size="2pt" color="#ff0000">
+size</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;30&quot;&gt;</font>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;text&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactAddress3&quot;
+</font><font face="Courier New" size="2pt" color="#ff0000">
+size</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;30&quot;&gt;</font>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;text&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactAddress4&quot;
+</font><font face="Courier New" size="2pt" color="#ff0000">
+size</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;30&quot;&gt;</font>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;text&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactAddress5&quot;
+</font><font face="Courier New" size="2pt" color="#ff0000">
+size</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;30&quot;&gt;</font>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<BR><BR>
+<font face="Courier New" size="2pt">
+Postcode / Zipcode:</font><font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;text&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactPostCode&quot;&gt;</font>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<BR><BR>
+<font face="Courier New" size="2pt">
+Daytime phone number:</font><font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;text&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactDayTelephone&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+size</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;20&quot;&gt;</font>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<BR><BR>
+<font face="Courier New" size="2pt">
+Evening phone number:</font><font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;text&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactEveTelephone&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+size</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;20&quot;&gt;</font>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<BR><BR>
+<font face="Courier New" size="2pt">
+Birthday:</font><font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt">
+Year:</font><font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">input</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+type</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;text&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactBirthdayYear&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+size</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;5&quot;&gt;&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<BR><BR>
+<font face="Courier New" size="2pt">
+Month:</font><br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">select</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+size</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;1&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactBirthdayMonth&quot;&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<font face="Courier New" size="2pt">
+January</font><font face="Courier New" size="2pt" color="#0000ff">&lt;/</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;&lt;</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<font face="Courier New" size="2pt">
+February</font><font face="Courier New" size="2pt" color="#0000ff">&lt;/</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;
+<BR>
+
+&lt;</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<font face="Courier New" size="2pt">
+March</font><font face="Courier New" size="2pt" color="#0000ff">&lt;/</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;/</font><font face="Courier New" size="2pt" color="#800000">select</font><font face="Courier New" size="2pt" color="#0000ff">&gt;&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<BR><BR>
+<font face="Courier New" size="2pt">
+Day:</font><br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">select</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+size</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;1&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactBirthdayDay&quot;&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<font face="Courier New" size="2pt">01</font><font face="Courier New" size="2pt" color="#0000ff">&lt;/</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;&lt;</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<font face="Courier New" size="2pt">
+02</font><font face="Courier New" size="2pt" color="#0000ff">&lt;/</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;
+<BR>
+
+&lt;</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<font face="Courier New" size="2pt">
+03</font><font face="Courier New" size="2pt" color="#0000ff">&lt;/</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;&lt;</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<font face="Courier New" size="2pt">
+04</font><font face="Courier New" size="2pt" color="#0000ff">&lt;/</font><font face="Courier New" size="2pt" color="#800000">option</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;/</font><font face="Courier New" size="2pt" color="#800000">select</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<BR><BR>
+<font face="Courier New" size="2pt">
+Notes:</font><font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">BR</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;</font><font face="Courier New" size="2pt" color="#800000">textarea</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+name</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;ContactNotes&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+cols</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;60&quot;</font><font face="Courier New" size="2pt" color="#ff00ff">
+</font><font face="Courier New" size="2pt" color="#ff0000">
+rows</font><font face="Courier New" size="2pt" color="#0000ff">=&quot;3&quot;&gt;&lt;/</font><font face="Courier New" size="2pt" color="#800000">textarea</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+<br>
+<font face="Courier New" size="2pt" color="#0000ff">&lt;/</font><font face="Courier New" size="2pt" color="#800000">HTML</font><font face="Courier New" size="2pt" color="#0000ff">&gt;</font>
+
+</td></tr></table></center>
+
+<BR>
+To try this example, copy the HTML code from the white box above into your text editor (e.g. Notepad) then save the file into your Ideaspad\Layouts Directory (see above for more information) and give the file the name of Contact.html<BR><BR>
+<B>
+Then in the Ideaspad program, go to the Template menu and choose 'Select Template' and within that screen choose your Contact.html file from the right hand side.</B>
+
+<BR><BR><font color="#0000ff">For more information about selecting templates <a href="templatesprovided.html">click here</a>.</font>
+
+
+<br><br>
+<hr>
+
+<script language="JavaScript">
+<!--
+
+function SymError()
+{
+  return true;
+}
+
+window.onerror = SymError;
+
+//-->
+</script>
+
+<script language="Javascript"><!--//
+function Doit(obj){
+if (document.getElementById(obj).style.display =="none"){
+	document.getElementById(obj).style.display="block"
+	}
+	else{
+	document.getElementById(obj).style.display="none"
+	}
+}
+//--></script>
+
+<Font face="Arial" size="3"><b><a href="javascript:void(0);" onclick="Doit('ThePower');">How could this page be improved?<BR></a><BR></b></font>
+
+<div id="ThePower" style="display: none;">
+
+<table border="1" bgcolor="White" cellpadding="15" cellspacing="0"><tr><td>
+<Font face="Arial" size="2">
+Help us to help you! Send us some feedback!
+
+<form method="POST" action="http://www.mindwarp-consultancy-software.com/cgi-bin/FormMail.pl">
+
+
+<BR>
+<font size="2"><!--How we might resolve this -->Comments: <br>
+<textarea name="Comments" rows="5" cols="53"></textarea><br><br>
+<font size="2">How would you rate this page ? </font>
+
+<select name="Rating">
+<option>10 - Great</option>
+<option>9</option>
+<option>8</option>
+<option>7</option>
+<option>6</option>
+<option>5 - Satisfactory</option>
+<option>4</option>
+<option>3</option>
+<option>2</option>
+<option>1 - Poor</option>
+</select>
+<br><br>
+
+<table border="2" cellpadding="0" cellspacing="0" bordercolor="Green"><tr><td>
+<table border="0">
+
+<tr><td align="Right"><font color="Green" size="2"><b>Optional</b></font></td><td></td><td></td></tr>
+
+<tr><td align="Right"><font size="2">Name: </font></td><td></td><td><input type="text" size="27" maxlength="256" name="realname"> </td></tr>
+
+
+<tr><td align="Right"><font size="2">E-mail: </font></td><td></td><td><input type="text" size="27" name="email" maxlength="256"> </td></tr>
+</table>
+</td></tr></table>
+<BR>
+<input type=hidden name="print_blank_fields" value="1">
+<input type="submit" value="Send us your thoughts!">
+<input type=hidden name="redirect" value="">
+<input type="hidden" name="recipient" value="support@Mindwarp-Consultancy-Software.com">
+<input type="hidden" name="subject" value="Ideaspad Help File V1.0">
+<input type="hidden" name="Page" value="createtemplates.html">
+<input type="hidden" name="title" value="Thank you for submitting your feedback!">
+</form>
+
+<br>
+</font>
+</td></tr></table>
+
+</div>
+
+<br><br>
+</TD></tr>
+<tr><TD height="10">
+	<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#C0C0C0"><tr><td>
+	<Font face="Arial" size="1"><p align="Right">
+	Copyright (c)  Mindwarp Consultancy Ltd 2005
+	</p></Font>
+	</td></tr></table>
+
+</td></tr></table>
+</font>
+</body>
+</HTML>

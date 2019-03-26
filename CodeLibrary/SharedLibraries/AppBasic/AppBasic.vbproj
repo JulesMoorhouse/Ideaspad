@@ -1,0 +1,305 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{CF1AED15-D31E-4511-92F3-0C695B374547}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "AppBasic"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "AppBasic"
+                StartupObject = "AppBasic.Class1"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Just Ideaspad.exe"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "c:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "c:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "c:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "SharpZipLib"
+                    AssemblyName = "SharpZipLib"
+                    HintPath = "..\..\Components\SharpZipLib.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "c:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "MCLCore"
+                    AssemblyName = "MCLCore"
+                    HintPath = "..\..\..\Build\DLLS\MCLCore.dll"
+                />
+                <Reference
+                    Name = "UIStyle"
+                    AssemblyName = "UIStyle"
+                    HintPath = "..\..\..\Build\DLLS\UIStyle.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Windows.Forms" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Diagnostics" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AcceptReg.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AcceptReg.resx"
+                    DependentUpon = "AcceptReg.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AppBasic.resx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "apphealth.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "cfu.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "cfu.resx"
+                    DependentUpon = "cfu.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cfufuncs.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "cipher.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Coolbar.vb"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Coolbar.resx"
+                    DependentUpon = "Coolbar.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CoolbarBand.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CoolbarBand.resx"
+                    DependentUpon = "CoolbarBand.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DynInternationalization.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EveryApp.vb"
+                    Link = "..\StdLibs\EveryApp.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IconMenu.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "InflateDeflate.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "InputBox.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "InputBox.resx"
+                    DependentUpon = "InputBox.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LanguageSelect.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LanguageSelect.resx"
+                    DependentUpon = "LanguageSelect.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LicenseBox.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LicenseBox.resx"
+                    DependentUpon = "LicenseBox.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Overlap.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Progress.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SearchWithHistory.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "StatusDialog.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "StatusDialog.resx"
+                    DependentUpon = "StatusDialog.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "strman.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TabControlColored.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "threads.vb"
+                    Link = "..\StdLibs\threads.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "tipbulb.png"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ToolTip.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ToolTip.resx"
+                    DependentUpon = "ToolTip.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "XPGroupBox.vb"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

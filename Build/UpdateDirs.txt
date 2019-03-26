@@ -1,0 +1,13 @@
+Dir		Prog			Detail		Manifest name
+
+neptune 	IdeasPad Demo 		Updates / MSI
+seven 		Ideaspad Standard 	Updates
+wire 		IdeasPad Standard 	MSI
+
+orange 		HTMLSqueeze Demo 	Updates / MSI	HTMLSqDemo.xml
+bravo 		HTMLSqueeze Standard 	Updates		HTMLSqSTD.xml
+tiger 		HTMLSqueeze Standard 	MSI
+
+newton 		MDBSecure Demo 		Updates / MSI	MDBSeDemo.xml
+metro 		MDBSecure Standard 	Updates		MDBSeSTD.xml
+copper 		MDBSecure Standard 	MSI

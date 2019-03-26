@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "IPStdSetup", "IPDSetupDBuild.vdproj", "{E00E494B-0862-4856-A842-C0657DF28A43}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E00E494B-0862-4856-A842-C0657DF28A43}.Debug.ActiveCfg = Debug
+		{E00E494B-0862-4856-A842-C0657DF28A43}.Debug.Build.0 = Debug
+		{E00E494B-0862-4856-A842-C0657DF28A43}.Release.ActiveCfg = Release
+		{E00E494B-0862-4856-A842-C0657DF28A43}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

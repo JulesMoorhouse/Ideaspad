@@ -1,0 +1,23 @@
+Willkommen bei Ideaspad! Wir hoffen, da� Sie es genie�en werden, unser Programm zu verwenden. F�r Details rund um Ideaspad und andere Produkte besuchen Sie unsere Website  hwww.example.comre.com
+Sie k�nnen die Voreinstellung f�r Schriftart des Texts und der Baumanzeige in dem Men� "Werkzeuge -> Optionen" �ndern.
+Um den gesammten Text im Editor zu selektieren dr�cken Sie bitte Ctrl + A.
+Sie k�nnen Text in die Zwischenablage kopieren indem Sie die Umschalttaste gedr�ckt halten und Ctrl C oder X zum ausschneiden dr�cken. Nat�rlich ist dies auch �ber das Men� Kopieren und Ausschneiden m�glich.
+Wenn Sie einen Knoten im Baum verschieben, erhalten Sie ein Men� in welchem Sie die M�glichkeit haben den Knoten zu kopieren, verschieben oder zu verkn�pfen.
+Die M�glichkeit eine Notiz oder einen Teilbaum zu verkn�pfen, erlaubt es Ihnen die gleiche Notiz an verschiedenen Stellen im Baum anzeigen zu lassen. Dies kann in einer gro�en Baumstruktur n�tzlich sein, da beim �ndern einer Notiz die verkn�pften Notizen auch werden.
+Bet�tigen Sie F1 um eine Hilfetext zu einem beliebigen Dialog zu erhalten.
+Sie k�nnen maximal 4 unterschiedliche 'Ideaspad Datenbanken' in der Demo Version verwalten. In der Vollversion erh�ht sich die maximale Anzahl der Ideaspad Datenbanken auf 20.
+Vergessen Sie nicht Ihren Freunden von Ideaspad zu erz�hlen. 
+Wenn Sie immer sicher gehen wollen, dass Sie die neuste Version von Ideaspad verwenden, dann klicken Sie einfach auf "Hilfe -> Updatepr�fung".
+Um Ihre favorisierte Ideaspad Datenbank automatisch zu starten, best�tigen Sie die Auswahlbox "Auswahl f�r den n�chsten Programmstart beibehalten." im Startdialog.
+Um einen Dialog zu schliessen, k�nnen Sie einfach ESC dr�cken.
+Durch dr�cken der ALT Taste und der im Men� unterstrichenen Buchstaben (z.B. Alt + D f�r Datei), k�nnen Sie das entsprechende Men� direkt aufklappen.
+Sie k�nnen Aktionen in Ideaspad r�ckg�ngig machen oder wiederholen. Dr�cken Sie dazu einfach CTRL + Z oder CTRL + Y. Nat�rlich stehen Ihnen diese Funktionen auch im Men� und der Symbolleiste zur Verf�gung.
+Sie k�nnen im Men� "Werkzeuge -> Optionen" die Sortierreihenfolge in der Baumanzeige �ndern.
+Um einen Hilfetext f�r ein entsprechendes Symbol zu erhalten, steuern Sie einfach Ihren Mauszeiger auf das Symbol. Es wird dann ein entsprechender Hilfetext angezeigt.
+Exportieren Sie Ihren Daten in Ideaspad, um Sie Ihren Freunden oder Arbeitskollegen zug�nglich zu machen. Mit dem Import Assistenten k�nnen Ihre Daten dort wieder importiert werden.
+Um weitere Informationen �ber Lizenzierungsm�glichkeiten zu erhalten, besuchen Sie bitte unsere Webseite http://www.example.com
+Um die Anzeige Tipp des Tages auszuschalten, entfernen Sie bitte die Markierung in der Auswahlbox "Tipps beim Start des Programms anzeigen". Diese Funktion kann im Hilfemen� mit "Tipp des Tages" wieder aktiviert werden.
+Um schnell Informationen in Ideaspad eintragen zu k�nnen, nutzen Sie bitte die Funktion 'Schnelleintrag' in der Symbolleiste.
+Um eine F�lle von Produktinformationen zu erhalten, lesen Sie bitte die Hilfetexte im Men� 'Hilfe -> Hilfe Index'.
+Durch einen Rechtsklick auf einen Knoten im Baum, k�nnen Sie mit dem Befehl 'Neue Vorlage hinzuf�gen' die entsprechende Vorlage schnell und einfach hinzuf�gen. Nat�rlich m�ssen dazu zuvor die Vorlagen entsprechend angelegt werden.
+Grafikdateien k�nnen schnell und einfach �ber die Symbolleiste in Ihre Notiz eingef�gt werden.

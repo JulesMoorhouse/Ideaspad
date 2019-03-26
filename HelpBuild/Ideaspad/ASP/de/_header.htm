@@ -1,0 +1,89 @@
+<%
+'LiveFlag = "FALSE"
+LiveFlag = "TRUE"
+
+if LiveFlag <> "FALSE" then
+	lstrPGWelcome = "welcome.html"
+	lstrPGQuickStart = "quickstart.html"
+	lstrPGWhatsTemplate = "whatsatemplate.html"
+	lstrPGTemplatesProvided = "templatesprovided.html"
+	lstrPGTempSearch = "templatesearch.html"
+	lstrPGTempCreate = "createtemplates.html"
+	lstrPGtempShare = "sharingtemplates.html"
+	lstrPGImportRTF = "importrichtext.html"
+	lstrPGExportWiz = "exportwizard.html"
+	lstrPGImportWiz = "importwizard.html"
+	lstrPGExportTempData = "exporttempldata.html"
+	lstrPGMaintain = "maintenance.html"
+	lstrPGSpelling = "spelling.html"
+	lstrPGToolsOpts = "toolsoptions.html"
+	lstrPGBranchprops = "branchprops.html"
+	lstrPGBookmarks = "bookmarks.html"
+	lstrPGTempMenu = "templatemenu.html"
+	lstrPGBuy = "buy.html"
+	lstrPGSupport = "support.html"
+	lstrPGRapidEntry = "rapidentry.html"
+else
+	lstrPGWelcome = "welcome.asp"
+	lstrPGQuickStart = "quickstart.asp"
+	lstrPGWhatsTemplate = "whatsatemplate.asp"
+	lstrPGTemplatesProvided = "templatesprovided.asp"
+	lstrPGTempSearch = "templatesearch.asp"
+	lstrPGTempCreate = "createtemplates.asp"
+	lstrPGtempShare = "sharingtemplates.asp"
+	lstrPGImportRTF = "importrichtext.asp"
+	lstrPGExportWiz = "exportwizard.asp"
+	lstrPGImportWiz = "importwizard.asp"
+	lstrPGExportTempData = "exporttempldata.asp"
+	lstrPGMaintain = "maintenance.asp"
+	lstrPGSpelling = "spelling.asp"
+	lstrPGToolsOpts = "toolsoptions.asp"
+	lstrPGBranchprops = "branchprops.asp"
+	lstrPGBookmarks = "bookmarks.asp"
+	lstrPGTempMenu = "templatemenu.asp"
+	lstrPGBuy = "buy.asp"
+	lstrPGSupport = "support.asp"
+	lstrPGRapidEntry = "rapidentry.asp"
+end if
+
+ %>
+<HTML>
+<Head>
+<body bgcolor="#FFFFC0">
+<Style>
+td	 {
+	font-size: 11pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+body	 {
+	font-size: 11pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+h1	 {
+	font-size: 13pt;
+	font-weight: bold;
+	font-family: Arial;
+}
+</Style>
+<Title><% = lstrTitle %></Title>
+</Head>
+<font face="Arial" size="2">
+<table border="0" width="100%" height="100%"><tr><TD height="10">
+	<table border="1" bordercolor="#C0C0C0" cellpadding="5" cellspacing="0" width="100%"  bgcolor="#ffffff"><tr><td>
+		<table border="0"  cellpadding="0" cellspacing="0" width="100%"><tr><td width>
+			<font face="Arial" Size="5"><% = lstrTitle %></font>
+		</td>
+		<td align="Right" valign="center">
+		<table border="0" cellpadding="0" cellspacing="0"><tr><td NOWRAP>
+			&nbsp;&nbsp;<font face="Arial" Size="6">IDEASPAD</font>&nbsp;&nbsp;
+		</td>
+			<td>
+				<img src="gfx/mcl_small.png">
+				</td></tr></table>
+		</td>
+	</tr></table>
+	</td></tr></table>
+</td></tr><tr><td valign="top">
+<BR><BR>

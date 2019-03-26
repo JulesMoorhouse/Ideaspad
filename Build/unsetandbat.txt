@@ -1,0 +1,40 @@
+IPDemoBuild.bat
+	- compile Beside01, Beside02
+	- Copy ShakZipLib.dll
+	- Compile Ideaspad
+	- Turn off pub keys 3, obfuscate 3, AddCrc 3, Sign 3
+	- Compile IPDemo.msi
+
+IPDemoUpdate.bat
+	- compile mclkeys
+	- copy D:\Build\IPDemo\4 "D:\Build\BakUpdSites\Temp\4
+	- ZipUpdCreate WDDS G-S.com
+
+IpDemoDistUpdate.bat
+	- Create IdPadXXX.exe from D:\Build\IPDemo\IPDemo.msi
+
+IPStandardBuild.bat
+	- compile Beside01, Beside02
+	- Copy ShakZipLib.dll
+	- Compile Ideaspad
+	- Turn off pub keys 3, obfuscate 3, AddCrc 3, Sign 3
+	- Compile IPStandard.msi
+
+IPStandardUpdate.bat
+	- compile mclkeys
+	- copy D:\Build\IPDemo\4 "D:\Build\BakUpdSites\Temp\4
+	- ZipUpdCreate WDDS G-S.com
+
+MclWebBuild.bat
+	- build HTMLs and cgis from ASP
+	- copy files and create MCLS updates fro IPDemo, IPStandard, MDBSecure, HTMLSqueeze
+
+CopyTipOfDay.bat
+	- copy D:\CodeLibrary\SharewareProjs\IdeasPad\TipOfDay.txt to ipstand\bin ipdemo\bin and c: progam files
+
+All.bat
+	- call IPDemoBuild.bat, IPDemoUpdate.bat, IPStandardBuild.bat, IPStandardUpdate.bat, mdbsecure,htmlsqueeze etc, MclWebBuild.bat
+
+
+Can reduce time of All.bat by only compiling Beside01 and Beside02 once, then copying.
+Instead of 8 separate compile have 2

@@ -1,0 +1,36 @@
+SOFTWARE LICENSE AGREEMENT HTMLSQUEEZE BETA VERSION.
+
+PLEASE READ THIS DOCUMENT CAREFULLY. BY INSTALLING THE SOFTWARE YOU ARE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT, YOU SHOULD PROCEED NO FURTHER.
+
+This is a legal agreement between you and Mindwarp Consultancy Ltd incorporated in England and Wales under registered number 3893432 ("MCL" which expression shall include its subsidiaries, agents, and assigns). This Agreement states the terms and conditions upon which MCL offers to license the software in the package together with all related documentation and accompanying items including, but not limited to, the executable programs and data files associated with such programs (collectively, the "Software").
+
+1.	Definitions
+1.1.	'Customer Equipment' means the end user workstation equipment and software and all other equipment, servers, routers, networks and communications links required by the Customer to access the program.
+1.2.	'Intellectual Property Rights' means any and all patents, trade marks, design rights, unregistered designs, copyrights, database right, know-how, rental rights and similar current and future rights throughout the world (and including all renewals and extensions) whether or not they are registered or capable of being registered.
+
+2.	Program and Grant of Licence
+2.1.	You may use the Program in the manner and for the purpose described in the Documentation,(the "Intended Purpose"). You are licensed to use the Program only for the Intended Purpose and as described in Clause below.
+2.2.	The Software is licensed, not sold, to you for use only under the terms of this Agreement. You own the CD or other media on which the Software is originally or subsequently recorded or fixed; but, as between you and MCL (and, to the extent applicable, its licensors), MCL retains all title to and ownership of the Software and reserves all rights not expressly granted to you.
+
+2.3.	Intended Purpose
+2.3.1.	You are not permitted to sell, rent, lease, sub-licence, modify, adapt, merge, translate, reverse engineer, decompile, disassemble or create derivative works based on the whole or any part of the Software or its associated documentation.
+
+3.	Customer's Obligations
+3.1.	Provide and maintain the Customer Equipment;
+3.2.	Ensure that the Customer Equipment at all times conforms to the requirements of MCL;
+3.3.	Take all such other steps as are necessary to protect the confidential information and Intellectual Property Rights in the program.
+3.4.	Indemnify MCL against any loss, damages, costs or expenses which MCL may suffer or incur in respect of any claims against MCL by a third party as result of a breach by the Customer of any of the terms of this Agreement.
+
+4.	Liability 
+4.1.	Whilst the Owner has taken reasonable steps to ensure the accuracy of the information contained in or shown by the Software, the Owner does not warrant that the Software or any information contained in or shown by the Software will meet your requirements or be error-free or that the operation of the Software will be uninterrupted or error-free or that defects in the Software will be corrected. You shall load and use the Software at your own risk and in no event will the Owner be liable to you for any loss or damage of any kind including loss of profits or other consequential loss arising from your use of or inability to use the Software or from errors or deficiencies in it whether caused by negligence or otherwise or arising from any use of the Software in conjunction with any other software program or corruption to data.
+4.2.	It is your responsibility to check the Software to your satisfaction against the presence of computer viruses. Whilst the Owner has taken precautions to avoid the incorporation of any such virus, it is strongly recommended that you check the Software with appropriate high-quality virus-checking materials. The Owner accepts no responsibility for any loss, damage or expense of any kind arising from the presence of any such virus. 
+4.3.	The express terms of this Agreement are in lieu of all warranties, conditions, undertakings, terms and obligations implied by statue, common law, trade usage, course of dealing or otherwise, all of which are hereby excluded to the fullest extent permitted by law.
+
+5.	Intellectual Property Rights and Title
+5.1.	Copyright and all other Intellectual Property Rights in the Application Software shall belong to and remain in MCL and/or its licensors.
+5.2.	The Customer is permitted to use the Application Software as specified in this Agreement but further or otherwise no licence shall be granted or implied in respect of Intellectual Property Rights in the Application Software or the System.
+5.3.	No title in the System or any of its component parts shall pass to the Customer at any time.
+5.4.	All copyright, trademarks and other Intellectual Property Rights that exist within the Application Services are and shall remain the exclusive property of MCL and/or (in the case of any third party software) the third party owner of such rights.  Nothing in this Agreement shall pass to the Customer any rights of title or ownership in such property.
+
+6.	Governing Law
+6.1.	This Agreement is governed by, and shall be construed in accordance with, English Law, but MCL (for whose benefit this agreement as to jurisdiction is made) reserves the right to bring proceedings in any court of competent jurisdiction, and the Customer agrees to submit to such jurisdiction.
