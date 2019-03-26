@@ -3,39 +3,7 @@ IdeasPad
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Backelite/MaryPopin/blob/master/LICENSE)
 
 IdeasPad is a basic word processor, an information manager (using templates) or both.
-Using tree navigation and rich text, a term describing colorful fonts and text
-A powerful text editor with spell checker
-
-# Background
-
-Ideaspad was written between 2002 and 2007, initially I wrote it for myself. I wanted something where I could write and maintain project notes, where I could build up certain areas in more detail.
-
-Later the term “Mind Mapping” became relevant, a researcher contacted me asking for some additional features to help with this feature.
-
-Also I had sales from companies, even a 20 user license.
-
-At the time my background was in Visual Basic 6, VB.Net seemed the obvious progression.
-
-Although the idea of sharing an MS Access database isn't ideal, this does work with a small number of users. Ideaspad provides some simply locking to make sharing more reliable.
-
-
-# How to build / edit the code
-
-You’ll need Microsoft Visual Basic .Net 2003, you can download this as part of your MSDN benefits.
-
-You will also probably need to use Windows 7 or earlier.
-
-Perhaps in future I may upgrade this project if this becomes a popular request.
-
-You’ll also need to install Microsoft Data Access Components 2.8.
-
-I have included a Components folder which includes most of the required DLLs.
-
-You’ll notice there are two project files for Ideaspad and a number of DLLs suffixed with Debug, these are added to one solution for easier debugging. (Why, well there needs to be separate solution to allow for obfuscating / strong name signing, which is used in the batch files.)
-
-So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs\IdeasPad\IdeasPadDebug.sln
-
-# What is Ideaspad?
+Using tree navigation and rich text, a term describing colorful fonts and text. A powerful text editor with spell checker.
 
 ## Helps you be more organised
 
@@ -124,6 +92,36 @@ With the latest version of Ideaspad you can create your own mini systems.
 * A birthday / Christmas card diary.
 * Scrap book.
 * The possibilities are endless!
+
+
+# Background
+
+Ideaspad was written between 2002 and 2007, initially I wrote it for myself. I wanted something where I could write and maintain project notes, where I could build up certain areas in more detail.
+
+Later the term “Mind Mapping” became relevant, a researcher contacted me asking for some additional features to help with this feature.
+
+Also I had sales from companies, even a 20 user license.
+
+At the time my background was in Visual Basic 6, VB.Net seemed the obvious progression.
+
+Although the idea of sharing an MS Access database isn't ideal, this does work with a small number of users. Ideaspad provides some simply locking to make sharing more reliable.
+
+
+# How to build / edit the code
+
+You’ll need Microsoft Visual Basic .Net 2003, you can download this as part of your MSDN benefits.
+
+You will also probably need to use Windows 7 or earlier.
+
+Perhaps in future I may upgrade this project if this becomes a popular request.
+
+You’ll also need to install Microsoft Data Access Components 2.8.
+
+I have included a Components folder which includes most of the required DLLs.
+
+You’ll notice there are two project files for Ideaspad and a number of DLLs suffixed with Debug, these are added to one solution for easier debugging. (Why, well there needs to be separate solution to allow for obfuscating / strong name signing, which is used in the batch files.)
+
+So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs\IdeasPad\IdeasPadDebug.sln
 
 
 ## Contributing
