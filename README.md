@@ -123,8 +123,8 @@ With the latest version of Ideaspad you can create your own mini systems.
 
 # Features
 <table border="0">
-<tr>
-<td>
+<tr style="border: none !important">
+<td style="border: none !important">
 
  * Rich Text Editor, Ideaspad uses Rich Text File format (or RTF) to allow colour and font 
  * formatting, similar to WordPad.
