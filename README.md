@@ -44,7 +44,7 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 ## Templates
 
 <img align="left" src="gfx/templates-html-forms.png" width="199" height="186">
-<img align="left" src="" width="10" height="186">
+<img align="left" src="gfx/spacer.gif" width="10" height="186">
 
  *  Basically a form in which to type your information.
  *  It's made using HTML so you can write your own, with a little HTML knowledge.
@@ -78,7 +78,8 @@ Template help topics and sample included to get you started.
 
 ## Customization
 
-<img align="left" src="gfx/branch-icons.png" width="207" height="195">&nbsp;&nbsp;
+<img align="left" src="gfx/branch-icons.png" width="207" height="195">
+<img align="left" src="gfx/spacer.gif" width="10" height="195">
 
  *  There are three areas to customization
  1.	Templates, HTML Forms. 
