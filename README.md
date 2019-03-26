@@ -1,3 +1,11 @@
+IdeasPad
+=========
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Backelite/MaryPopin/blob/master/LICENSE)
+
+IdeasPad is a basic word processor, an information manager (using templates) or both.
+Using tree navigation and rich text, a term describing colorful fonts and text
+A powerful text editor with spell checker
+
 # Background
 
 Ideaspad was written between 2002 and 2007, initially I wrote it for myself. I wanted something where I could write and maintain project notes, where I could build up certain areas in more detail.
@@ -118,4 +126,8 @@ With the latest version of Ideaspad you can create your own mini systems.
 * The possibilities are endless!
 
 
+## Contributing
+Contributions for bug fixing or improvements are welcomed. Feel free to submit a pull request.
 
+## License
+Usage is provided under the [MIT License](http://opensource.org/licenses/mit-license.php). See LICENSE for the full details.
