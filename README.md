@@ -43,7 +43,8 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 
 ## Templates
 
-![gfx/templates-html-forms.png]{: height="186px" width="199px" margin="10px" align="left"}
+
+![gfx/templates-html-forms.png](){: height="186px" width="199px" margin="10px" align="left"}
 
  *  Basically a form in which to type your information.
  *  It's made using HTML so you can write your own, with a little HTML knowledge.
