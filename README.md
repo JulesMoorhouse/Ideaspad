@@ -120,14 +120,9 @@ With the latest version of Ideaspad you can create your own mini systems.
 </tr>
 </table>
 
-<style>
-.markdown-body table tr, .markdown-body table td {
-border: none !important;
-}
-</style>
 
 # Features
-<table border="0">
+<table>
 <tr>
 <td>
 
