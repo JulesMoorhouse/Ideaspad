@@ -97,7 +97,9 @@ With the latest version of Ideaspad you can create your own mini systems.
 
 
 # Features
+
 <img align="left" src="gfx/project-plan.png" width="292" height="202">
+
 * Rich Text Editor, Ideaspad uses Rich Text File format (or RTF) to allow colour and font * formatting, similar to WordPad.
 * A basic word processor handling text and data.
 * Branch / Bookmark Icons.
