@@ -1,4 +1,4 @@
-# Ideaspad
+# Background
 
 Ideaspad was written between 2002 and 2007, initially I wrote it for myself. I wanted something where I could write and maintain project notes, where I could build up certain areas in more detail.
 
@@ -27,7 +27,7 @@ You’ll notice there are two project files for Ideaspad and a number of DLLs su
 
 So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs\IdeasPad\IdeasPadDebug.sln
 
-# What is Ideaspad
+# What is Ideaspad?
 
 ## Helps you be more organised
 <img align="right" src="gfx/branchicons.png" width="168" height="114">
@@ -43,11 +43,11 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 
 
 
-## What's a template?
+## Template?
 <img align="left" src="gfx/templates-html-forms.png" width="199" height="186">
 
-* Basically a form in which to type your information.
-* It's made using HTML so you can write your own, with a little HTML knowledge.
+  * Basically a form in which to type your information.
+  * It's made using HTML so you can write your own, with a little HTML knowledge.
 
 ### The Ultimate Data Entry System, Create your own system
 * Ideaspad gives you powerful features to create your own forms.
@@ -59,14 +59,14 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 Template help topics and sample included to get you started.
 
 
-## Allows you to spend less time entering information
+### Allows you to spend less time entering information
 
 <img align="right" src="gfx/rapidentry.png" width="277" height="238">
 
 * Rapid entry, quickly enter your information using a template.
 * You can also drag and drop branches to reorganise topics.
 
-## Build up your own structured system overnight using HTML
+### Build up your own structured system overnight using HTML
 * You can build a basic multi user system overnight, without the need for IT staff.
 * Then if your venture takes off, you can upgrade to a bigger dedicated system.
 * Build up structure information using templates, then you can export it a bigger system!
@@ -81,18 +81,10 @@ Template help topics and sample included to get you started.
 <img align="left" src="gfx/branch-icons.png" width="207" height="195">
 
 * There are three areas to customization
-1.	Templates, HTML Forms. 
-2.	Topics / Branches which you assign with your templates / rich text. 
-3.	General settings and bookmarks. 
+  1.	Templates, HTML Forms. 
+  2.	Topics / Branches which you assign with your templates / rich text. 
+  3.	General settings and bookmarks. 
 With the latest version of Ideaspad you can create your own mini systems.
-
-## The Ideaspad Community
-* A place where you can share your creations and hold discussions.
-* You can share your creations either as HTML files for Templates or by using the Export files, produced by the export wizard.
-* Download Templates and Export Files (other peoples mini systems)
-* Also, we will update the standard templates to include the best of the community files.
-
-
 
 
 
