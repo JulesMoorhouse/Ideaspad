@@ -2,13 +2,13 @@
 
 Ideaspad was written between 2002 and 2007, initially I wrote it for myself. I wanted something where I could write and maintain project notes, where I could build up certain areas in more detail.
 
-Later the term “Mind Mapping” became relevant. I researcher contacted me asking for some additional features to help with this feature.
+Later the term “Mind Mapping” became relevant, a researcher contacted me asking for some additional features to help with this feature.
 
 Also I had sales from companies, even a 20 user license.
 
-At the time my background was in Visual Basic 6, VB.Net seem the obvious progression.
+At the time my background was in Visual Basic 6, VB.Net seemed the obvious progression.
 
-Although the idea of sharing an MS Access database is the ideal, this does work with a small number of uses. Ideaspad does provide some simply locking to reduce conflicts.
+Although the idea of sharing an MS Access database isn't ideal, this does work with a small number of users. Ideaspad provides some simply locking to make sharing more reliable.
 
 
 # How to build / edit the code
@@ -35,7 +35,7 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 
  * Tree navigation, powerful information organisation feature, in a hierarchical manner.
  * Topics, sub topics and icons to help you identify your topic.
- * An information manager (or PIM) a database information.
+ * A personal information manager or database manager.
  * It could be described as a cardfile or guide card collection.
  * You can use it like a jotter pad, allowing easy access to topics.
  * Not only a text editor, but a word processor and more.
@@ -43,7 +43,7 @@ So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs
 
 ## Templates
 
-<img align="left" src="gfx/templates-html-forms.png" width="199" height="186">
+<img align="left" src="gfx/templates-html-forms.png" width="199" height="186">&nbsp;&nbsp;
 
  *  Basically a form in which to type your information.
  *  It's made using HTML so you can write your own, with a little HTML knowledge.
@@ -77,13 +77,15 @@ Template help topics and sample included to get you started.
 
 ## Customization
 
-<img align="left" src="gfx/branch-icons.png" width="207" height="195">
+<img align="left" src="gfx/branch-icons.png" width="207" height="195">&nbsp;&nbsp;
 
  *  There are three areas to customization
  1.	Templates, HTML Forms. 
  2.	Topics / Branches which you assign with your templates / rich text. 
  3.	General settings and bookmarks. 
 With the latest version of Ideaspad you can create your own mini systems.
+
+<br/>
 
 # Features
 
