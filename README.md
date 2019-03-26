@@ -5,6 +5,13 @@ IdeasPad
 IdeasPad is a basic word processor, an information manager (using templates) or both.
 Using tree navigation and rich text, a term describing colorful fonts and text. A powerful text editor with spell checker.
 
+#### Contents
+[Background](#background)
+[Features](#features)
+[How to build / edit the code](#how-to-build-edit-the-code)
+
+-----
+
 ## Helps you be more organised
 
 <img align="right" src="gfx/branchicons.png" width="168" height="114">
@@ -31,7 +38,7 @@ Using tree navigation and rich text, a term describing colorful fonts and text. 
  *  Create your own customised information collection or data entry system.
 
 
-### Caters for creativity and future change
+## Caters for creativity and future change
 * Create your own Templates (HTML Forms) add as much complexity as required.
 Template help topics and sample included to get you started.
 
