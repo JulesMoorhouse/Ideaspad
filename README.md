@@ -1,12 +1,7 @@
 IdeasPad
 =========
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Backelite/MaryPopin/blob/master/LICENSE)
 
-![GitHub contributors](https://img.shields.io/github/contributors/jules2010/ideaspad.svg)
-
-![GitHub issues](https://img.shields.io/github/issues/jules2010/ideaspad.svg)
-
-![GitHub pull requests](https://img.shields.io/github/issues-pr/jules2010/ideaspad.svg)
+![GitHub](https://img.shields.io/github/license/jules2010/ideaspad.svg) ![GitHub contributors](https://img.shields.io/github/contributors/jules2010/ideaspad.svg) ![GitHub issues](https://img.shields.io/github/issues/jules2010/ideaspad.svg) ![GitHub pull requests](https://img.shields.io/github/issues-pr/jules2010/ideaspad.svg)
 
 IdeasPad is a basic word processor, an information manager (using templates) or both.
 Using tree navigation and rich text, a term describing colorful fonts and text. A powerful text editor with spell checker.
