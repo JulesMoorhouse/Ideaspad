@@ -120,11 +120,16 @@ With the latest version of Ideaspad you can create your own mini systems.
 </tr>
 </table>
 
+<style>
+.markdown-body table tr, .markdown-body table td {
+border: none !important;
+}
+</style>
 
 # Features
 <table border="0">
-<tr style="border: none !important">
-<td style="border: none !important">
+<tr>
+<td>
 
  * Rich Text Editor, Ideaspad uses Rich Text File format (or RTF) to allow colour and font 
  * formatting, similar to WordPad.
