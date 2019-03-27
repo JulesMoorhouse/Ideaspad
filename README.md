@@ -7,14 +7,13 @@ IdeasPad
 IdeasPad is a basic word processor, an information manager (using templates) or both.
 Using tree navigation and rich text (a term describing colorful fonts and text). A powerful text editor with spell checker. Available in English and German. Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
 
-## Table of contents
+# Table of contents
 * [Background](#background)
 * [Features and functionality](#features-and-functionality)
 * [How to build / edit the code](#how-to-build-edit-the-code)
 * [Installation](#installation)
------
 
-## Features and functionality
+# Features and functionality
 <details><summary>More details...</summary>
  
 ## Helps you be more organised
@@ -111,9 +110,9 @@ With the latest version of Ideaspad you can create your own mini systems.
 
 <br/>
 </details>
------
 
-## Background
+
+# Background
 
 Ideaspad was written between 2002 and 2007, initially I wrote it for myself. I wanted something where I could write and maintain project notes, where I could build up certain areas in more detail.
 
@@ -127,7 +126,7 @@ Although the idea of sharing an MS Access database isn't ideal, this does work w
 
 <br/>
 
-## How to build / edit the code
+# How to build / edit the code
 
 You’ll need Microsoft Visual Basic .Net 2003, you can download this as part of your MSDN benefits.
 
@@ -147,13 +146,13 @@ However you can also use the batch files in the build folder, start with the DLL
 
 <br/>
 
-## Installation
+# Installation
 
 You can install the app via [Ideaspad.msi](https://github.com/Jules2010/Ideaspad/raw/master/Build/IPStandard/DistBuild/Ideaspad.msi) which will inform you about any system requirements you don't already have.
 
 <br/>
 
-## Contributing
+# Contributing
 Contributions for bug fixing or improvements are welcomed. Feel free to submit a pull request.
 
 <br/>
