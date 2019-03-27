@@ -94,7 +94,7 @@ With the latest version of Ideaspad you can create your own mini systems.
  * Import Export features.
 
 
-## Possible Uses
+## Possible uses
 * Research Data Organizer
 * Your own custom order entry system.
 * A project stash / planner.
