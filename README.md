@@ -2,16 +2,15 @@ IdeasPad
 =========
 
 ![GitHub](https://img.shields.io/github/license/jules2010/ideaspad.svg) ![GitHub contributors](https://img.shields.io/github/contributors/jules2010/ideaspad.svg) ![GitHub issues](https://img.shields.io/github/issues/jules2010/ideaspad.svg) ![GitHub pull requests](https://img.shields.io/github/issues-pr/jules2010/ideaspad.svg)
+[![Languages](https://img.shields.io/badge/language-vb.net-FF69B4.svg)](#)
 
 IdeasPad is a basic word processor, an information manager (using templates) or both.
-Using tree navigation and rich text (a term describing colorful fonts and text). A powerful text editor with spell checker.
+Using tree navigation and rich text (a term describing colorful fonts and text). A powerful text editor with spell checker. Available in English and German. Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
 
-#### Contents
-[Background](#background)
-
-[Features](#features)
-
-[How to build / edit the code](#how-to-build-edit-the-code)
+# Table of contents
+* [Background](#background)
+* [Features](#features)
+* [How to build / edit the code](#how-to-build-edit-the-code)
 
 -----
 
@@ -140,6 +139,14 @@ I have included a Components folder which includes most of the required DLLs.
 You’ll notice there are two project files for Ideaspad and a number of DLLs suffixed with Debug, these are added to one solution for easier debugging. (Why, well there needs to be separate solution to allow for obfuscating / strong name signing, which is used in the batch files.)
 
 So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs\IdeasPad\IdeasPadDebug.sln
+
+However you can also use the batch files in the build folder, start with the DLLs.
+
+<br/>
+
+# Installation
+
+You can install the app via [Ideaspad.msi](https://github.com/Jules2010/Ideaspad/raw/master/Build/IPStandard/DistBuild/Ideaspad.msi) which will inform you about any system requirements you don't already have.
 
 <br/>
 
