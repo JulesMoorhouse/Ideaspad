@@ -14,7 +14,6 @@ Using tree navigation and rich text (a term describing colorful fonts and text).
 * [Installation](#installation)
 
 # Features and functionality
-<details><summary>Expand...</summary>
  
 ## Helps you be more organised
 
@@ -109,8 +108,6 @@ With the latest version of Ideaspad you can create your own mini systems.
 * The possibilities are endless!
 
 <br/>
-</details>
-
 
 # Background
 
