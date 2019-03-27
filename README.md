@@ -9,11 +9,14 @@ Using tree navigation and rich text (a term describing colorful fonts and text).
 
 ## Table of contents
 * [Background](#background)
-* [Features](#features)
+* [Features and functionality](#features-and-functionality)
 * [How to build / edit the code](#how-to-build-edit-the-code)
 * [Installation](#installation)
 -----
 
+## Features and functionality
+<details><summary>More details...</summary>
+ 
 ## Helps you be more organised
 
 <img align="right" src="gfx/branchicons.png" width="168" height="114">
@@ -107,7 +110,7 @@ With the latest version of Ideaspad you can create your own mini systems.
 * The possibilities are endless!
 
 <br/>
-
+</details>
 -----
 
 ## Background
