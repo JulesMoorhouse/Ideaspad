@@ -13,8 +13,8 @@ Using tree navigation and rich text (a term describing colorful fonts and text).
 * [How to build / edit the code](#how-to-build-edit-the-code)
 * [Installation](#installation)
 
-
-<details><summary># Features and functionality</summary>
+# Features and functionality
+<details><summary>Expand...</summary>
  
 ## Helps you be more organised
 
