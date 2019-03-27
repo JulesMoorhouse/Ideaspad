@@ -129,7 +129,7 @@ You’ll need Microsoft Visual Basic .Net 2003, you can download this as part of
 
 You will also probably need to use Windows 7 or earlier.
 
-Perhaps in thr future I may upgrade this project if this becomes a popular request.
+Perhaps in the future I may upgrade this project if this becomes a popular request.
 
 You’ll also need to install Microsoft Data Access Components 2.8.
 
