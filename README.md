@@ -13,8 +13,8 @@ Using tree navigation and rich text (a term describing colorful fonts and text).
 * [How to build / edit the code](#how-to-build-edit-the-code)
 * [Installation](#installation)
 
-# Features and functionality
-<details><summary>More details...</summary>
+
+<details><summary># Features and functionality</summary>
  
 ## Helps you be more organised
 
@@ -157,5 +157,5 @@ Contributions for bug fixing or improvements are welcomed. Feel free to submit a
 
 <br/>
 
-## License
+# License
 Usage is provided under the [MIT License](http://opensource.org/licenses/mit-license.php). See LICENSE for the full details.
