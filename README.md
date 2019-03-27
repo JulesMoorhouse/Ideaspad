@@ -10,7 +10,7 @@ Using tree navigation and rich text (a term describing colorful fonts and text).
 # Table of contents
 * [Background](#background)
 * [Features and functionality](#features-and-functionality)
-* [How to build / edit the code](#how-to-build-edit-the-code)
+* [How to build / edit the code](#how-to-build--edit-the-code)
 * [Installation](#installation)
 
 # Features and functionality
