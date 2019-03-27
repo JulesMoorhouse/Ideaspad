@@ -4,7 +4,7 @@ IdeasPad
 ![GitHub](https://img.shields.io/github/license/jules2010/ideaspad.svg) ![GitHub contributors](https://img.shields.io/github/contributors/jules2010/ideaspad.svg) ![GitHub issues](https://img.shields.io/github/issues/jules2010/ideaspad.svg) ![GitHub pull requests](https://img.shields.io/github/issues-pr/jules2010/ideaspad.svg)
 
 IdeasPad is a basic word processor, an information manager (using templates) or both.
-Using tree navigation and rich text, a term describing colorful fonts and text. A powerful text editor with spell checker.
+Using tree navigation and rich text (a term describing colorful fonts and text). A powerful text editor with spell checker.
 
 #### Contents
 [Background](#background)
@@ -70,7 +70,7 @@ Template help topics and sample included to get you started.
 <img align="left" src="gfx/branch-icons.png" width="207" height="195">
 <img align="left" src="gfx/spacer.gif" width="10" height="195">
 
- *  There are three areas to customization
+ *  There are three areas to customize :-
  1.	Templates, HTML Forms. 
  2.	Topics / Branches which you assign with your templates / rich text. 
  3.	General settings and bookmarks. 
@@ -103,7 +103,7 @@ With the latest version of Ideaspad you can create your own mini systems.
 * Your own recipe catalogue.
 * A card file for your music collection.
 * Custom home inventory store.
-* A birthday / Christmas card diary.
+* A Birthday / Christmas card diary.
 * Scrap book.
 * The possibilities are endless!
 
@@ -131,7 +131,7 @@ You’ll need Microsoft Visual Basic .Net 2003, you can download this as part of
 
 You will also probably need to use Windows 7 or earlier.
 
-Perhaps in future I may upgrade this project if this becomes a popular request.
+Perhaps in thr future I may upgrade this project if this becomes a popular request.
 
 You’ll also need to install Microsoft Data Access Components 2.8.
 
