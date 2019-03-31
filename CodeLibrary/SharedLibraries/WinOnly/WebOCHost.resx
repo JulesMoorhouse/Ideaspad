@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="DefaultUrl">
+		<value>http://www.microsoft.com/</value>
+	</data>
+	<data name="Label_OpenUrlInstructions">
+		<value>Type in a URL or filename, or choose a file from the file system to load into this custom web browser.</value>
+	</data>
+	<data name="Text_OkButton">
+		<value>&amp;OK</value>
+	</data>
+	<data name="Text_CancelButton">
+		<value>&amp;Cancel</value>
+	</data>
+	<data name="Label_Url">
+		<value>URL</value>
+	</data>
+	<data name="Err_InvalidUrlOrFile">
+		<value>or the name of a file that does not exist on your system. Please re-enter your data and try again.</value>
+	</data>
+	<data name="Caption_InvalidUrlOrFile">
+		<value>or File</value>
+	</data>
+	<data name="Label_Address">
+		<value>Address:</value>
+	</data>
+	<data name="Menu_File">
+		<value>File</value>
+	</data>
+	<data name="Menu_File_Open">
+		<value>Open...</value>
+	</data>
+	<data name="Menu_File_Exit">
+		<value>Exit...</value>
+	</data>
+	<data name="Menu_Edit">
+		<value>Edit</value>
+	</data>
+	<data name="Menu_Edit_Cut">
+		<value>Cut</value>
+	</data>
+	<data name="Menu_Edit_Copy">
+		<value>Copy</value>
+	</data>
+	<data name="Menu_Edit_Paste">
+		<value>Paste</value>
+	</data>
+	<data name="Menu_Edit_Find">
+		<value>Find...</value>
+	</data>
+	<data name="Menu_Edit_ViewSource">
+		<value>View Source...</value>
+	</data>
+	<data name="Menu_Tools">
+		<value>Tools</value>
+	</data>
+	<data name="Menu_Tools_InternetOptions">
+		<value>Internet Options...</value>
+	</data>
+	<data name="Menu_Help">
+		<value>Help</value>
+	</data>
+	<data name="Menu_Help_About">
+		<value>About...</value>
+	</data>
+	<data name="Menu_File_Print">
+		<value>Print...</value>
+	</data>
+	<data name="About_Title">
+		<value>BrowseMaster - VB.NET WebBrowser Host</value>
+	</data>
+	<data name="About_Text">
+		<value>Written by Jay Allen, Microsoft Developer Support. Copyright (C) 2002 Microsoft Corp., All Rights Reserved. This sample is provided AS IS, without any expressed or implied warranty. It is NOT intended to execute as is in a production environment withou significant modification. </value>
+	</data>
+</root>
