@@ -15,7 +15,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTrademark("")> 
 <Assembly: CLSCompliant(True)> 
 <Assembly: AssemblyDelaySign(False)> 
-<Assembly: AssemblyKeyFile("..\..\..\IdeasPad\ideaspad.snk")> 
+<Assembly: AssemblyKeyFile("..\..\..\..\SharewareProjs\IdeasPad\ideaspad.snk")> 
 <Assembly: AssemblyKeyName("")> 
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
