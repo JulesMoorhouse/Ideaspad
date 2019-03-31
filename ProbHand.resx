@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="BugRep_StatusGeneratingReport">
+		<value>Generating Problem Report ...</value>
+	</data>
+	<data name="BugRep_StatusSendingReport">
+		<value>Sending Problem Report ...</value>
+	</data>
+	<data name="BugRep_StatusProblemReportSent">
+		<value>Problem Report Sent ...</value>
+	</data>
+	<data name="BugRep_SubmitOKMessage">
+		<value>Report Sent OK!</value>
+	</data>
+	<data name="BugRep_SubmitFailed">
+		<value>Problem report failed to send!</value>
+	</data>	
+	<data name="BugRep_ReportProblem">
+		<value>&amp;Report Problem</value>
+	</data>	
+	<data name="BugRep_ReportFailed">
+		<value>Problem report failed to send!</value>
+	</data>	
+	<data name="BugRep_ThanksButOldVersion">
+		<value>Thanks for trying to send the problem report, however a newer program version is[CR]now available, please use the 'check for updates' feature to upgrade!</value>
+	</data>	
+	<data name="Privacy_Message">
+		<value>Your privacy is important to us! No personal information is sent to Mindwarp Consultancy Ltd, from this process.</value>
+	</data>
+	<data name="Privacy_ProblemReport">
+		<value>Problem Report :</value>
+	</data>	
+	<data name="Privacy_Close">
+		<value>&amp;Close</value>
+	</data>		
+	<data name="Privacy_Me">
+		<value>Privacy</value>
+	</data>		
+</root>
