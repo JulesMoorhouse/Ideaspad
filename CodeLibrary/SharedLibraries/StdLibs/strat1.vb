@@ -5,7 +5,7 @@ Imports AppBasic
 Friend Class MyCrypto
     ' declare crypto service provider 
     'someday the class will be able to use DES TripelDES and RijndaelManaged 
-    Private myCryptoService As New RijndaelManaged()
+    Private myCryptoService As New RijndaelManaged
     'create the key 
     Private Function GetLegalKey(ByVal key As String) As Byte()
         Dim sTemp As String
@@ -26,7 +26,7 @@ Friend Class MyCrypto
     End Function
     Friend Function Decrypt(ByVal vText As String, ByVal vkey As String) As String
         Try
-            Dim msin As New System.IO.MemoryStream()
+            Dim msin As New System.IO.MemoryStream
             Try
                 msin.Write(Convert.FromBase64String(vText), 0, Convert.FromBase64String(vText).Length)
             Catch
@@ -34,7 +34,7 @@ Friend Class MyCrypto
             End Try
             msin.Position = 0
 
-            Dim msout As New System.IO.MemoryStream()
+            Dim msout As New System.IO.MemoryStream
             Dim buf() As Byte = New Byte(4096) {}
             Dim byteKey() As Byte = GetLegalKey(vkey)
             myCryptoService.Key = byteKey
@@ -59,11 +59,11 @@ Friend Class MyCrypto
     End Function
     Friend Function Encrypt(ByVal vText As String, ByVal vKey As String) As String
         Try
-            Dim msin As New System.IO.MemoryStream()
+            Dim msin As New System.IO.MemoryStream
             msin.Write(System.Text.Encoding.Default.GetBytes(vText), 0, System.Text.Encoding.Default.GetBytes(vText).Length)
             msin.Position = 0
 
-            Dim msout As New System.IO.MemoryStream()
+            Dim msout As New System.IO.MemoryStream
             Dim buf() As Byte = New Byte(4096) {}
             Dim byteKey() As Byte = GetLegalKey(vKey)
             myCryptoService.Key = byteKey
@@ -102,7 +102,6 @@ Friend Module strat1
         Dim str7Email As String
         Dim str8OrderDate As String
         Dim str9TransNum As String
-        'Dim strCode As String
         Dim str11LicenseName As String
         Dim strSerialBlock As String
     End Structure
@@ -111,35 +110,31 @@ Friend Module strat1
 
         Dim lstrFileStr As String = ""
 
-        Dim OpenFile As FileStream = New FileStream(pstrFileToCheck, FileMode.Open, FileAccess.Read, FileShare.Read)             
+        Dim OpenFile As FileStream = New FileStream(pstrFileToCheck, FileMode.Open, FileAccess.Read, FileShare.Read)
 
         Dim StreamReader As StreamReader = New StreamReader(OpenFile)
         lstrFileStr = StreamReader.ReadToEnd '.Read 'Line()
         StreamReader.Close()
         OpenFile.Close()
 
-        Dim clsDec As New MyCrypto()
+        Dim clsDec As New MyCrypto
         Dim decstring As String
 
-        If RBUse = False Then 
+        If RBUse = False Then
             decstring = clsDec.Decrypt(lstrFileStr, "bUnn1es#j*mp@thr")
         Else
-            'decstring = RBDecypt(lstrFileStr) 
-            decstring = RBDecypt(pstrFileToCheck) 
+            decstring = RBDecypt(pstrFileToCheck)
         End If
 
         Dim DelimChar As String = "#@#"
         decstring = Groovydecrypt("hfdsfodskewjiwi215209dsf9fdlkxlkds", decstring)
 
-        Dim LastDelimPost As Integer = Occurences(decstring, DelimChar) 
+        Dim LastDelimPost As Integer = Occurences(decstring, DelimChar)
 
-        'Dim cpos As Integer = Microsoft.VisualBasic.InStr(decstring, RetNthStr(decstring, 11, DelimChar)) + (RetNthStr(decstring, 11, DelimChar)).Length + 3
-        
         Dim cpos As Integer = Microsoft.VisualBasic.InStr(decstring, RetNthStr(decstring, LastDelimPost, DelimChar)) + (RetNthStr(decstring, LastDelimPost, DelimChar)).Length + 3
 
         Dim lstrCode As String
         Try
-            'MessageBox.Show(decstring.Length + " " + cpos + " " + decstring.Length)
             lstrCode = Microsoft.VisualBasic.Mid(decstring, cpos, (decstring.Length - (cpos - 1)))
         Catch ex As System.ArgumentOutOfRangeException
             'file not long enough
@@ -159,99 +154,55 @@ Friend Module strat1
             .str9TransNum = RetNthStr(decstring, 9, DelimChar)
             .str11LicenseName = RetNthStr(decstring, 11, DelimChar)
 
-            
-            Dim lstrKeys() As String 'Dim lstrKeys(3) As String 
-            'Dim lstrKeysCharGoodCtr(1) As Integer 
-            Dim lstrKeysCharGoodCtr() As Integer 
+            Dim lstrKeys() As String
+            Dim lstrKeysCharGoodCtr() As Integer
 
-            BlackKeys(lstrKeys) 
+            BlackKeys(lstrKeys)
 
-            ReDim lstrKeysCharGoodCtr(lstrKeys.GetUpperBound(0)) 
+            ReDim lstrKeysCharGoodCtr(lstrKeys.GetUpperBound(0))
 
-            Dim lbooBlackKeyFound As Boolean = False 'true 
-            Dim lintArrInc3 As Integer 
-            For lintArrInc3 = 0 To lstrKeys.GetUpperBound(0) 
+            Dim lbooBlackKeyFound As Boolean = False
+            Dim lintArrInc3 As Integer
+            For lintArrInc3 = 0 To lstrKeys.GetUpperBound(0)
                 Dim lintArrInc2 As Integer
-                Dim lintCharCtr As Integer = 0 
-                
+                Dim lintCharCtr As Integer = 0
+
                 Dim lstrUnEncodedStr As String = .str1Name & "%@" & .str3City & "%@" & .str4State & "%@" & .str6Country & "%@" & _
                         LeftGet(.str7Email, InStrGet(.str7Email, "@") - 1) & "%@" & .str8OrderDate & "%@" & .str9TransNum & "%@" & .str11LicenseName
-                
                 Dim lintMinLength As Integer
                 If lstrKeys(lintArrInc3).Length > lstrUnEncodedStr.Length Then
                     lintMinLength = lstrUnEncodedStr.Length
                 Else
-                    'lintMinLength = lstrKeys(lintArrInc3).Length
-                    'Not sure why, but an extra hash is being added to current license.
-                    'this fixes the problem.
-                    lintMinLength = lstrKeys(lintArrInc3).Length - 1 
+                    lintMinLength = lstrKeys(lintArrInc3).Length - 1
                 End If
 
 
 
-                'For lintArrInc2 = 0 To lstrKeys(lintArrInc3).Length - 1 'lstrRetVal.Length - 1
-                
                 For lintArrInc2 = 0 To lintMinLength
-                    'If CharConvert(MidGet(lstrUnEncodedStr, lintArrInc2 + 1, 1)) <> MidGet(lstrRetVal, lintArrInc2 + 1, 1) Then
-                    '''--- TESTING 
-                    ''Dim LookingAtCodeChar As String = CharConvert(MidGet(lstrUnEncodedStr, lintArrInc2 + 1, 1))
-                    ''Dim ThisBlackKeyChar As String = MidGet(lstrKeys(lintArrInc3), lintArrInc2 + 1, 1)
-                    ''Console.WriteLine(lintArrInc3 & ":=" & LookingAtCodeChar & "=" & ThisBlackKeyChar & "=")
-                    '''--- TESTING 
-                    If CharConvert(MidGet(lstrUnEncodedStr, lintArrInc2 + 1, 1)) = MidGet(lstrKeys(lintArrInc3), lintArrInc2 + 1, 1) Then 
-                        'lbooBlackKeyFound = False
-                        'Exit For
-                        lstrKeysCharGoodCtr(lintArrInc3) += 1 
+                    If CharConvert(MidGet(lstrUnEncodedStr, lintArrInc2 + 1, 1)) = MidGet(lstrKeys(lintArrInc3), lintArrInc2 + 1, 1) Then
+                        lstrKeysCharGoodCtr(lintArrInc3) += 1
                     End If
                     lintCharCtr += 1
                 Next lintArrInc2
-                'Console.WriteLine(lstrKeysCharGoodCtr(lintArrInc3) & " " & lintCharCtr)
                 If lstrKeysCharGoodCtr(lintArrInc3) = lintCharCtr Then
                     'bad key found
                     lbooBlackKeyFound = True
                     Exit For
                 End If
-            Next lintArrInc3 
+            Next lintArrInc3
 
-            ReDim lstrKeys(0) 
+            ReDim lstrKeys(0)
 
-            
             lstrStr = "#@#" & .str4State & DelimChar & .str2Street & DelimChar & .str1Name & DelimChar & _
                 .str8OrderDate & DelimChar & .str3City & DelimChar & .str9TransNum & DelimChar & _
                 .str7Email & DelimChar & .str5Zip & DelimChar & .str11LicenseName & DelimChar & _
                 .str6Country & DelimChar & RetNthStr(decstring, 10, DelimChar) & DelimChar
 
             If lbooBlackKeyFound = True Then
-                'MessageBox.Show("Black Key Found!")
                 lstrStr = ""
             End If
 
-            
-            'encrypt peoples details who you don't want to have keys, RE above fields
-
-            'lstrStr = "#@#" & RetNthStr(decstring, 4, DelimChar) & DelimChar & RetNthStr(decstring, 2, DelimChar) & DelimChar & RetNthStr(decstring, 1, DelimChar) & DelimChar & _
-            '    RetNthStr(decstring, 8, DelimChar) & DelimChar & RetNthStr(decstring, 3, DelimChar) & DelimChar & RetNthStr(decstring, 9, DelimChar) & DelimChar & _
-            '    RetNthStr(decstring, 7, DelimChar) & DelimChar & RetNthStr(decstring, 5, DelimChar) & DelimChar & RetNthStr(decstring, 11, DelimChar) & DelimChar & _
-            '    RetNthStr(decstring, 6, DelimChar) & DelimChar & RetNthStr(decstring, 10, DelimChar) & DelimChar
-
-            'moved further up
-            'lstrStr = "#@#" & .str4State & DelimChar & .str2Street & DelimChar & .str1Name & DelimChar & _
-            '    .str8OrderDate & DelimChar & .str3City & DelimChar & .str9TransNum & DelimChar & _
-            '    .str7Email & DelimChar & .str5Zip & DelimChar & .str11LicenseName & DelimChar & _
-            '    .str6Country & DelimChar & RetNthStr(decstring, 10, DelimChar) & DelimChar
         End With
-
-        'Dim lstrTest As String
-        'Dim lintArrIncx As Integer
-
-        'For lintArrIncx = 0 To lstrCode.Length - 1
-        '    Dim lstrChar As String = Microsoft.VisualBasic.Mid(lstrCode, lintArrIncx + 1, 1)
-        '    lstrTest &= DecodeDecoyChar(lstrChar)
-        'Next lintArrIncx
-
-        'Console.WriteLine("C" & lstrCode.Length & " " & lstrCode)
-        'Console.WriteLine("T" & lstrTest.Length & " " & lstrTest)
-        'Console.WriteLine("S" & lstrStr.Length & " " & lstrStr)
 
         lstrStr = (lstrStr).ToUpper
 
@@ -262,40 +213,10 @@ Friend Module strat1
         Dim lstrActchar As String
         Dim lintResult As Integer = 0
 
-        '''---- REMOVE AFTER TESTING ----
-        ''Dim DecBuild As String = ""
-        ''Dim AscBuild As String = ""
-        ''MessageBox.Show(lstrCode.Length & " " & lstrStr.Length)
-
-        ''Try
-        ''    For lintArrInc = 1 To lstrStr.Length
-        ''        lstrDecchar = (DecodeDecoyCharPart(Microsoft.VisualBasic.Mid(lstrCode, lintArrInc, 1))).Trim
-        ''        lstrActchar = (Microsoft.VisualBasic.Mid(lstrStr, lintArrInc, 1)).Trim
-        ''        If lstrDecchar = "" Then
-        ''            lstrDecchar = "-"
-        ''            lstrActchar = "-"
-        ''        End If
-
-        ''        DecBuild &= lstrDecchar
-        ''        AscBuild &= lstrActchar
-
-        ''    Next lintArrInc
-        ''Catch
-        ''End Try
-
-        ''Console.WriteLine(" ")
-        ''Console.WriteLine(lstrStr)
-        ''Console.WriteLine(DecBuild)
-        ''Console.WriteLine(AscBuild)
-        '''---- REMOVE AFTER TESTING ----
-
-        'MessageBox.Show("lintItem * 21=" & (lintItem * 21) & CR() & "lstrcode.Length=" & lstrCode.Length & CR() & "lstrStr.length=" & lstrStr.Length)
-        
         For lintArrInc = 1 To 20 '21 '10
             lstrDecchar = (DecodeDecoyCharPart(Microsoft.VisualBasic.Mid(lstrCode, lintItem * lintArrInc, 1))).Trim
             lstrActchar = (Microsoft.VisualBasic.Mid(lstrStr, lintItem * lintArrInc, 1)).Trim
 
-            'Console.WriteLine(lintArrInc & " " & lintItem * lintArrInc & " (" & lstrDecchar & ") (" & lstrActchar & ")")
             If lstrDecchar <> "" And lstrActchar <> "" Then
                 If lstrActchar = lstrDecchar Then
                     lintResult = 2
@@ -310,8 +231,6 @@ Friend Module strat1
             System.Runtime.InteropServices.GuidAttribute.GetCustomAttribute( _
             System.Reflection.Assembly.GetExecutingAssembly, GetType(System.Runtime.InteropServices.GuidAttribute))
 
-
-        
         Dim Guid As String = RetNthStr(decstring, 10, DelimChar)
         Select Case Guid.Length
             Case 36
@@ -321,9 +240,6 @@ Friend Module strat1
                 If Extra = "100" Then '100 is for data file selling usage
                     Dim SerialBlock As String = RetNthStr(decstring, 12, DelimChar)
                     'SerialBlock holds the number/code which ties the "data file" license key to the program licese key
-                    'TODO: NEED TO TEST THIS
-
-                    
                     Dim RetSerialBlock As String = ""
                     Dim RetProdIdentifier As String = ""
 
@@ -338,36 +254,25 @@ Friend Module strat1
                     If RetSerialBlock <> pstrProgramLicenseHash Then
                         lintResult = 0
                     End If
-                    
                 End If
                 Guid = LeftGet(Guid, 36)
         End Select
 
-
-        'If RetNthStr(decstring, 10, DelimChar) <> objGuid.Value Then 
-        If DontCheckGUID = False Then 
+        If DontCheckGUID = False Then
             If Guid <> objGuid.Value Then
                 lintResult = 0
             End If
         End If
-        
 
         Select Case lintResult
             Case 0
                 'characters do not match code OR
                 'Shouldn't happen - char not present in function (possible!, but could would be test by MCL first!)
-                'MsgBox("fail 0")
                 Unlock = 256
             Case 2
-                
                 'this should only be used on Product license NOT data files!!
-                'MessageBox.Show(lstrCode, lstrCode.Length)
                 Dets.strSerialBlock = HashData(lstrCode, True)
 
-                'MessageBox.Show(Dets.strSerialBlock)
-                'MessageBox.Show(HashData(lstrCode, False))
-                
-                'MsgBox("OK!")
                 Unlock = 257
             Case 3
                 'MsgBox("Cracked!")
@@ -409,62 +314,31 @@ Friend Module strat1
         Dim Info As New System.IO.FileInfo(System.IO.Path.GetDirectoryName( _
         System.Reflection.Assembly.GetExecutingAssembly.Location.ToString()) & "\keyfile.mcl")
 
-        lintThreads = 16 
+        lintThreads = 16
 
         If Not Info.Exists Then
-            'produce message / file open dialog
-            'Dim FindKey As New OpenFileDialog()
-            'With FindKey
-            '    .CheckFileExists = True
-            '    .CheckPathExists = True
-            '    .Filter = "MCL Unlock File (*.mcl)|*.mcl"
-            '    .DefaultExt = "mcl"
-            '    .Multiselect = False
-            '    .Title = "Please locate your unlock file!"
-            '    .ShowDialog()
-            '    If .FileName = "" Then
-            '        MxessageBox.Show("You will have been provided with the 'Unlock File' if you have purchased this product!", NameMe(""))
-            '        Exit Function
-            '    Else
-            '        System.IO.File.Copy(.FileName, System.IO.Path.GetDirectoryName( _
-            '            System.Reflection.Assembly.GetExecutingAssembly.Location.ToString()) & "\keyfile.mcl", True)
-            '    End If
-            'End With
+            '
         Else
             'check keyfile
             Try
                 lintThreads = Unlock(System.IO.Path.GetDirectoryName( _
                 System.Reflection.Assembly.GetExecutingAssembly.Location.ToString()) & "\keyfile.mcl", pDets, "", "")
             Catch
-                
                 Try
                     System.IO.File.Delete(System.IO.Path.GetDirectoryName( _
                     System.Reflection.Assembly.GetExecutingAssembly.Location.ToString()) & "\keyfile.mcl")
                 Catch
                     '
                 End Try
-                
             End Try
         End If
 
 
-        If lintThreads <> 257 Then 
-            mintVersion = 64 
+        If lintThreads <> 257 Then
+            mintVersion = 64
         Else
-            mintVersion = 32 
-        End If 
-
-        'Probably not such a good idea, the program may be at fault, you don't want to have to issue millions of new keys!
-        
-        'If lintThreads <> 257 Then
-        '    Try
-        '        System.IO.File.Delete(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly.Location.ToString()) & "\keyfile.mcl")
-        '    Catch e As Exception
-        '    End Try
-        '    MxessageBox.Show("Your 'Unlock File' has not been accepted!", NameMe(""))
-        '    End 
-        '    Exit Function
-        'End If
+            mintVersion = 32
+        End If
 
     End Function
     Function Groovydecrypt(ByVal password As String, ByVal strtodecrypt As String) As String
@@ -474,7 +348,6 @@ Friend Module strat1
 
         strtodecrypt = PutAscBackintoChr(strtodecrypt)
 
-        'ralphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !,.:;?~@#$%^&*()_+-=][}{/><" & ChrGet(34) & "'`|" & ChrGet(129) & ChrGet(131) & ChrGet(132) & ChrGet(133) & ChrGet(134) & ChrGet(135) & ChrGet(136) & ChrGet(137) & ChrGet(138) & ChrGet(139) & ChrGet(140) & ChrGet(141) & ChrGet(142) & ChrGet(143) & ChrGet(144) & ChrGet(145) & ChrGet(147) & ChrGet(148) & ChrGet(149) & ChrGet(150) & ChrGet(151) & ChrGet(152) & ChrGet(153) & ChrGet(154) & ChrGet(156) & ChrGet(157) & ChrGet(160) & ChrGet(161) & ChrGet(162) & ChrGet(163) & ChrGet(165) & ChrGet(167) & ChrGet(181) & ChrGet(182) & ChrGet(183) & ChrGet(199) & ChrGet(209) & ChrGet(212) & ChrGet(216) & ChrGet(224) & ChrGet(225) & ChrGet(226) & ChrGet(227) & ChrGet(229) & ChrGet(230) & ChrGet(231) & ChrGet(233) & ChrGet(234) & ChrGet(235) & ChrGet(237)
         Dim lintArrinc As Integer
         For lintArrinc = 0 To 255
             ralphabet &= Microsoft.VisualBasic.Chr(lintArrinc)
@@ -500,7 +373,6 @@ Friend Module strat1
             Dim lstrvalue As Integer = Microsoft.VisualBasic.InStr(pos_alpha_ary(n), Microsoft.VisualBasic.Mid(strtodecrypt, i + 1, 1))
             Dim DecStr As String = Microsoft.VisualBasic.Mid(ralphabet, lstrValue, 1)
             decrypted_string &= DecStr
-            'Console.Write(DecStr) 'USED IN TESTING ONLY
             n += 1
             If n = nn Then n = 0
             i += 1
@@ -510,8 +382,6 @@ Friend Module strat1
         decrypted_string = str_replace("[new]", "n", decrypted_string) '
         decrypted_string = str_replace("[ret]", "r", decrypted_string) '
 
-
-
         Return decrypted_string
     End Function
     Function PutAscBackintoChr(ByVal pstrString As String) As String
@@ -519,7 +389,7 @@ Friend Module strat1
         Dim lintArrInc As Integer
 
         For lintArrInc = 0 To pstrString.Length Step 3
-            Dim lstrpre As Integer = Val(Val(Microsoft.VisualBasic.Mid(pstrString, lintArrInc + 1, 3))) 
+            Dim lstrpre As Integer = Val(Val(Microsoft.VisualBasic.Mid(pstrString, lintArrInc + 1, 3)))
             Dim lstrValue As String = Microsoft.VisualBasic.Chr(lstrpre)
             lstrRetVal &= lstrValue
         Next lintArrInc
@@ -543,14 +413,13 @@ Friend Module strat1
         'Need to check implementation of this function!! 
 
         lintErrPos = 0
-        'On Error GoTo EndFunc
+
         Try
             lintErrPos = 1
             Do Until lintArrInc = pintPosition
                 lintErrPos = 2
                 lintArrInc = lintArrInc + 1
                 lintErrPos = 3
-                'llngPos = InxStr(llngLastPos + 1, pstrString, pstrChar)
                 llngPos = CInt(Microsoft.VisualBasic.InStr(CInt(llngLastPos + 1), pstrString, pstrChar))
                 lintErrPos = 4
                 RetNthStr = Microsoft.VisualBasic.Mid(pstrString, llngLastPos + 1, (llngPos - llngLastPos) - 1)
@@ -564,12 +433,11 @@ Friend Module strat1
             RetNthStr = ""
         End Try
 
-
     End Function
     Private Function HashData(ByVal str As String, ByVal pbooShort As Boolean) As String
 
-        'added 
-        Dim hashAlg As System.Security.Cryptography.MD5 = New System.Security.Cryptography.MD5CryptoServiceProvider()
+
+        Dim hashAlg As System.Security.Cryptography.MD5 = New System.Security.Cryptography.MD5CryptoServiceProvider
         Dim rawBytes() As Byte = System.Text.ASCIIEncoding.ASCII.GetBytes(str)
         Dim lhashData() As Byte = hashAlg.ComputeHash(rawBytes)
 
@@ -585,16 +453,11 @@ Friend Module strat1
             Return BitConverter.ToString(lhashData).Replace("-", "")
         End If
 
-        'Else
-        '    Dim ret As String = BitConverter.ToString(lhashData).Replace("-", "")
-        '    Return (MidGet(ret, 1, 5) & "-" & MidGet(ret, 6, 5) & "-" & MidGet(ret, 11, 5) & "-" & MidGet(ret, 16, 5) & "-" & MidGet(ret, 21, 5) & "-" & MidGet(ret, 26, 5) & "-" & MidGet(ret, 31, 2))
-        'End If
-
         Return out
 
     End Function
     Private Function ShorternFullHashData(ByVal pString As String) As String
-        'added 
+
 
         Dim out As String
 
@@ -608,15 +471,6 @@ Friend Module strat1
     End Function
     Private Sub GetDigs(ByVal pstrInput As String, ByRef SerialBlock As String, _
     ByRef RetProdIdentifier As String, ByRef CheckDigs As String)
-
-        'Try
-        '    Dim HyphPos As Integer = InStr(pstrInput, "-")
-        '    SerialBlock = Left(pstrInput, HyphPos - 1)
-        '    CheckDigs = Mid(pstrInput, HyphPos + 1, pstrInput.Length - HyphPos)
-        'Catch
-        '    SerialBlock = ""
-        '    CheckDigs = ""
-        'End Try
 
         Try
             Dim str() As String = Microsoft.VisualBasic.Split(pstrInput & "-", "-")

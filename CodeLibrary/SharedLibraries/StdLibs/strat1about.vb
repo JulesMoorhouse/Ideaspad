@@ -4,8 +4,7 @@ Friend Class frmAbout
     Inherits System.Windows.Forms.Form
     Private LangText As System.Resources.ResourceManager = New _
             System.Resources.ResourceManager("Ideaspad.Ideaspad", _
-            System.Reflection.Assembly.GetExecutingAssembly()) 
-    'Dim LangText As System.Resources.ResourceManager 
+            System.Reflection.Assembly.GetExecutingAssembly())
 
 #Region " Windows Form Designer generated code "
 
@@ -50,20 +49,20 @@ Friend Class frmAbout
     Friend WithEvents lblProgRegCaption As System.Windows.Forms.Label
     <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
         Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(frmAbout))
-        Me.lblProdVer = New System.Windows.Forms.Label()
-        Me.lblProdName = New System.Windows.Forms.Label()
-        Me.lblCompName = New System.Windows.Forms.Label()
-        Me.lblCopyright = New System.Windows.Forms.Label()
-        Me.btnOK = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.lblAddress = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.lblOrderInfo = New System.Windows.Forms.Label()
-        Me.lblEmail = New System.Windows.Forms.Label()
-        Me.lblIssuedDate = New System.Windows.Forms.Label()
-        Me.lblProgRegCaption = New System.Windows.Forms.Label()
-        Me.lblName = New System.Windows.Forms.Label()
-        Me.lblLicense = New System.Windows.Forms.Label()
+        Me.lblProdVer = New System.Windows.Forms.Label
+        Me.lblProdName = New System.Windows.Forms.Label
+        Me.lblCompName = New System.Windows.Forms.Label
+        Me.lblCopyright = New System.Windows.Forms.Label
+        Me.btnOK = New System.Windows.Forms.Button
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox
+        Me.lblAddress = New System.Windows.Forms.Label
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.lblOrderInfo = New System.Windows.Forms.Label
+        Me.lblEmail = New System.Windows.Forms.Label
+        Me.lblIssuedDate = New System.Windows.Forms.Label
+        Me.lblProgRegCaption = New System.Windows.Forms.Label
+        Me.lblName = New System.Windows.Forms.Label
+        Me.lblLicense = New System.Windows.Forms.Label
         Me.SuspendLayout()
         '
         'lblProdVer
@@ -415,40 +414,34 @@ Friend Class frmAbout
 
     Private Sub frmAbout_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
-        
-        If IsAboveOrEqualWinXp() = True Then  
+        If IsAboveOrEqualWinXp() = True Then
             btnOK.FlatStyle = FlatStyle.System
-        End If 
-        
+        End If
 
-        SetBackcolors() 
+        SetBackcolors()
 
         'Remember this form needs adding to the AssemblyInfo ObfuscateBlock section
-        Try 
-            Dim Res As New IPIconsPack.Resource()
+        Try
+            Dim Res As New IPIconsPack.Resource
             PictureBox1.Image = Res.picMCLLogo.Image
-        Catch 
-        End Try 
+        Catch
+        End Try
 
 
         With GetVersionInfo(System.Reflection.Assembly.GetExecutingAssembly.Location)
-            'Me.Text = NameMe(.ProductName)
-            Me.Text = NameMe(Me.Text)  
-            lblProdName.Text = .ProductName '& "�"
-            'lblProdVer.Text = "Version " & .ProductVersion
-            Try 
-                lblProdVer.Text = LangText.GetString("IpstdOnly_Version") & " " & .ProductVersion 
-            Catch 
-                lblProdVer.Text = "Version " & .ProductVersion 
-            End Try 
+            Me.Text = NameMe(Me.Text)
+            lblProdName.Text = .ProductName
+            Try
+                lblProdVer.Text = LangText.GetString("IpstdOnly_Version") & " " & .ProductVersion
+            Catch
+                lblProdVer.Text = "Version " & .ProductVersion
+            End Try
 
-            'lblCompName.Text = "Developed by " & .CompanyName
-            
-            Try 
+            Try
                 lblCompName.Text = LangText.GetString("IpSplash_DevelopedBy") & " " & .CompanyName
-            Catch 
-                lblCompName.Text = "Developed by " & .CompanyName 
-            End Try 
+            Catch
+                lblCompName.Text = "Developed by " & .CompanyName
+            End Try
 
             lblCopyright.Text = .LegalCopyright
         End With
@@ -459,17 +452,14 @@ Friend Class frmAbout
             lintResult = Details(System.IO.Path.GetDirectoryName( _
                     System.Reflection.Assembly.GetExecutingAssembly.Location.ToString()) & "\keyfile.mcl")
 
-            
             If AppBasic.strman.Occurences(lblAddress.Text.ToUpper, "UNAVAILABLE") = 5 Then
                 lblAddress.Visible = False
                 Me.Height = Me.Height - 88
             End If
-            
         End If
 
         If lintResult <> 0 Then
-            'lblLicense.Text = "UNREGISTERED"
-            lblLicense.Text = "" 
+            lblLicense.Text = ""
 
             lblProgRegCaption.Visible = False
             lblName.Visible = False
@@ -480,8 +470,6 @@ Friend Class frmAbout
 
             Me.Height = 216
         End If
-
-        'Me.Close() ' 
 
     End Sub
 
@@ -495,43 +483,32 @@ Friend Class frmAbout
         Dim lintResult As Integer
 
         Try
-            'lintResult = Unlock(System.IO.Path.GetDirectoryName( _
-            '      System.Reflection.Assembly.GetExecutingAssembly.Location.ToString()) & "\keyfile.mcl", Dets)
-            'Paramater already used, not sure why file was derived again, must have been a bad day
             lintResult = Unlock(pstrFile, Dets, "", "") 'added ,"" 
         Catch
             lintResult = 3
         End Try
 
         With Dets
-            .str11LicenseName = .str11LicenseName.Replace("2003", "2007") 
-            .str11LicenseName = .str11LicenseName.Replace("2004", "2007") 
-            .str11LicenseName = .str11LicenseName.Replace("2005", "2007") 
-            .str11LicenseName = .str11LicenseName.Replace("2006", "2007") 
+            .str11LicenseName = .str11LicenseName.Replace("2003", "2007")
+            .str11LicenseName = .str11LicenseName.Replace("2004", "2007")
+            .str11LicenseName = .str11LicenseName.Replace("2005", "2007")
+            .str11LicenseName = .str11LicenseName.Replace("2006", "2007")
 
-            'lblLicense.Text = ProperCase(.str11LicenseName)
-            
             lblLicense.Text = ProperCase(LeftGet(.str11LicenseName, .str11LicenseName.Length - 4))
             lblName.Text = ProperCase(.str1Name)
-            'lblOrganisation.Text = ReturnNthStr(decstring, 2, "~")
             lblAddress.Text = ProperCase(.str2Street & Environment.NewLine & _
                  .str3City & Environment.NewLine & _
                  .str4State) & Environment.NewLine & _
                  .str5Zip.ToUpper & Environment.NewLine & _
                  ProperCase(.str6Country)
-            'lblOther.Text = ReturnNthStr(decstring, 10, "~")
             lblEmail.Text = ProperCase(.str7Email)
             lblIssuedDate.Text = .str8OrderDate & " " & .str9TransNum
         End With
 
         Select Case lintResult
             Case 0
-                'characters do not match code OR
-                'Shouldn't happen - char not present in function (possible!, but could would be test by MCL first!)
-                'MsgxBox("fail 0")
                 Details = 256
             Case 2
-                'MsgxBox("OK!")
                 Details = 257
             Case 3
                 'MsgxBox("Cracked!")
@@ -546,7 +523,6 @@ Friend Class frmAbout
     End Sub
     Private Sub SetBackcolors()
 
-        'Added 
         btnOK.BackColor = Color.FromArgb(0, btnOK.BackColor)
         lblProdVer.BackColor = Color.FromArgb(0, lblProdVer.BackColor)
         lblProdName.BackColor = Color.FromArgb(0, lblProdName.BackColor)
@@ -565,13 +541,12 @@ Friend Class frmAbout
     End Sub
     Protected Overrides Sub OnPaintBackground(ByVal pevent As System.Windows.Forms.PaintEventArgs)
 
-        'Added 
-        Dim PaintBack As New UIStyle.Painting()
+        Dim PaintBack As New UIStyle.Painting
         PaintBack.PaintBackground(pevent, Me)
 
     End Sub
 
     Private Sub frmAbout_Resize(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Resize
-        Me.Invalidate() 
+        Me.Invalidate()
     End Sub
 End Class

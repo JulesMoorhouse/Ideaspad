@@ -5,26 +5,26 @@ Del "D:\HelpBuild\Ideaspad\*.html" /Q
 
 echo .
 Echo Generating Files...
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/spelling.asp D:\HelpBuild\Ideaspad\spelling.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/support.asp D:\HelpBuild\Ideaspad\support.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/templatemenu.asp D:\HelpBuild\Ideaspad\templatemenu.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/templatesearch.asp D:\HelpBuild\Ideaspad\templatesearch.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/toolsoptions.asp D:\HelpBuild\Ideaspad\toolsoptions.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/welcome.asp D:\HelpBuild\Ideaspad\welcome.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/whatsatemplate.asp D:\HelpBuild\Ideaspad\whatsatemplate.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/buy.asp D:\HelpBuild\Ideaspad\buy.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/importrichtext.asp D:\HelpBuild\Ideaspad\importrichtext.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/sharingtemplates.asp D:\HelpBuild\Ideaspad\sharingtemplates.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/templatesprovided.asp D:\HelpBuild\Ideaspad\templatesprovided.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/bookmarks.asp D:\HelpBuild\Ideaspad\bookmarks.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/branchprops.asp D:\HelpBuild\Ideaspad\branchprops.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/createtemplates.asp D:\HelpBuild\Ideaspad\createtemplates.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/exporttempldata.asp D:\HelpBuild\Ideaspad\exporttempldata.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/exportwizard.asp D:\HelpBuild\Ideaspad\exportwizard.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/importwizard.asp D:\HelpBuild\Ideaspad\importwizard.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/maintenance.asp D:\HelpBuild\Ideaspad\maintenance.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/quickstart.asp D:\HelpBuild\Ideaspad\quickstart.html NONE
-D:\Build\BuildTools\htmlsqueeze.exe http://localhost/helpip/rapidentry.asp D:\HelpBuild\Ideaspad\rapidentry.html NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/spelling.asp "..\spelling.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/support.asp "..\support.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/templatemenu.asp "..\templatemenu.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/templatesearch.asp "..\templatesearch.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/toolsoptions.asp "..\toolsoptions.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/welcome.asp "..\welcome.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/whatsatemplate.asp "..\whatsatemplate.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/buy.asp "..\buy.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/importrichtext.asp "..\importrichtext.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/sharingtemplates.asp "..\sharingtemplates.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/templatesprovided.asp "..\templatesprovided.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/bookmarks.asp "..\bookmarks.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/branchprops.asp "..\branchprops.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/createtemplates.asp "..\createtemplates.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/exporttempldata.asp "..\exporttempldata.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/exportwizard.asp "..\exportwizard.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/importwizard.asp "..\importwizard.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/maintenance.asp "..\maintenance.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/quickstart.asp "..\quickstart.html" NONE
+"..\..\..\Build\BuildTools\htmlsqueeze.exe" http://localhost/helpip/rapidentry.asp "..\rapidentry.html" NONE
 
 
 Echo Finished Generating....

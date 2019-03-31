@@ -33,7 +33,7 @@ Namespace IPIconsPack
         Friend WithEvents picMCLLogo As System.Windows.Forms.PictureBox
         <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
             Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(Resource))
-            Me.picMCLLogo = New System.Windows.Forms.PictureBox()
+            Me.picMCLLogo = New System.Windows.Forms.PictureBox
             Me.SuspendLayout()
             '
             'picMCLLogo

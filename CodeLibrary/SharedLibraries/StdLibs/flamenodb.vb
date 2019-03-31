@@ -14,58 +14,58 @@ Friend Module FlameNoDB
 
         ' A = 1 : B = 2 : C = 3 : D = 4 : E = 5
 
-        pstrProbComtStack &= " #SC1" 
-        Dim clsEnc As New MyCrypto()
+        pstrProbComtStack &= " #SC1"
+        Dim clsEnc As New MyCrypto
         Dim lstrTemp As String
 
         Dim Code As String
-        pstrProbComtStack &= " #SC2" 
+        pstrProbComtStack &= " #SC2"
 
         Code = f & A & f & B & f & C & f & D & f & E & f
 
         lstrTemp = clsEnc.Encrypt(Code, "password")
-        pstrProbComtStack &= " #SC3" 
+        pstrProbComtStack &= " #SC3"
         clsEnc = Nothing
 
         Try : File.Delete(fileStr) : Catch : End Try
-        pstrProbComtStack &= " #SC4" 
-        Application.DoEvents() 
+        pstrProbComtStack &= " #SC4"
+        Application.DoEvents()
 
         Try
             If File.Exists(fileStr) = True Then
-                pstrProbComtStack &= " #SC4-ExTrue" 
+                pstrProbComtStack &= " #SC4-ExTrue"
 
-                Dim fa As FileAttributes 
-                fa = File.GetAttributes(fileStr) 
+                Dim fa As FileAttributes
+                fa = File.GetAttributes(fileStr)
                 If fa = FileAttributes.ReadOnly Then
-                    pstrProbComtStack &= " #SC4-RoTrue" 
+                    pstrProbComtStack &= " #SC4-RoTrue"
                 Else
-                    pstrProbComtStack &= " #SC4-RoTrue" 
+                    pstrProbComtStack &= " #SC4-RoTrue"
                 End If
                 If fa = FileAttributes.Normal Then
-                    pstrProbComtStack &= " #SC4-NoTrue" 
+                    pstrProbComtStack &= " #SC4-NoTrue"
                 Else
-                    pstrProbComtStack &= " #SC4-NoTrue" 
+                    pstrProbComtStack &= " #SC4-NoTrue"
                 End If
 
             Else
-                pstrProbComtStack &= " #SC4-ExFalse" 
+                pstrProbComtStack &= " #SC4-ExFalse"
             End If
         Catch
-            pstrProbComtStack &= " #SC4-ExFalse2" 
+            pstrProbComtStack &= " #SC4-ExFalse2"
         End Try
 
         Dim OpenFile As FileStream = New FileStream(fileStr, FileMode.CreateNew, _
             FileAccess.Write, FileShare.Write)
-        pstrProbComtStack &= " #SC7" 
+        pstrProbComtStack &= " #SC7"
 
         Dim StreamWriter As StreamWriter = New StreamWriter(OpenFile)
-        pstrProbComtStack &= " #SC9" 
+        pstrProbComtStack &= " #SC9"
 
         StreamWriter.Write(lstrTemp)
         StreamWriter.Close()
         OpenFile.Close()
-        pstrProbComtStack &= " #SC11" 
+        pstrProbComtStack &= " #SC11"
 
     End Sub
     Private Sub ClearCodes()
@@ -77,13 +77,13 @@ Friend Module FlameNoDB
         ClearCodes()
         pstrProbComtStack &= " #GC2"
         If File.Exists(fileStr) = False Then
-            
+
             Dim le As String = System.IO.Path.GetDirectoryName(System.Environment.GetFolderPath(Environment.SpecialFolder.System)) & "\explorer.exe"
             pstrProbComtStack &= " #GC3"
             Dim lstrFieldValues(4) As FieldValues
             'With gstrDBFlamer
 
-            Dim lstrNewFlamer As New flamer()
+            Dim lstrNewFlamer As New flamer
             pstrProbComtStack &= " #GC4"
             'set values
 
@@ -114,7 +114,7 @@ Friend Module FlameNoDB
             Exit Sub
             ' End With
 
-            
+
         End If
         pstrProbComtStack &= " #GC10"
         Dim lstrFileStr As String = ""
@@ -126,7 +126,7 @@ Friend Module FlameNoDB
         StreamReader.Close()
         OpenFile.Close()
         pstrProbComtStack &= " #GC11"
-        Dim clsDec As New MyCrypto()
+        Dim clsDec As New MyCrypto
         Dim lstrTemp As String
         pstrProbComtStack &= " #GC12"
         lstrTemp = clsDec.Decrypt(lstrFileStr, "password")
