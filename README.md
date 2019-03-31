@@ -2,19 +2,19 @@ IdeasPad
 =========
 
 ![GitHub](https://img.shields.io/github/license/jules2010/ideaspad.svg) ![GitHub contributors](https://img.shields.io/github/contributors/jules2010/ideaspad.svg) ![GitHub issues](https://img.shields.io/github/issues/jules2010/ideaspad.svg) ![GitHub pull requests](https://img.shields.io/github/issues-pr/jules2010/ideaspad.svg)
+[![Languages](https://img.shields.io/badge/language-vb.net-FF69B4.svg)](#)
 
 IdeasPad is a basic word processor, an information manager (using templates) or both.
-Using tree navigation and rich text, a term describing colorful fonts and text. A powerful text editor with spell checker.
+Using tree navigation and rich text (a term describing colorful fonts and text). A powerful text editor with spell checker. Available in English and German. Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
 
-#### Contents
-[Background](#background)
+# Table of contents
+* [Features and functionality](#features-and-functionality)
+* [Background](#background)
+* [How to build / edit the code](#how-to-build--edit-the-code)
+* [Installation](#installation)
 
-[Features](#features)
-
-[How to build / edit the code](#how-to-build-edit-the-code)
-
------
-
+# Features and functionality
+ 
 ## Helps you be more organised
 
 <img align="right" src="gfx/branchicons.png" width="168" height="114">
@@ -70,7 +70,7 @@ Template help topics and sample included to get you started.
 <img align="left" src="gfx/branch-icons.png" width="207" height="195">
 <img align="left" src="gfx/spacer.gif" width="10" height="195">
 
- *  There are three areas to customization
+ *  There are three areas to customize :-
  1.	Templates, HTML Forms. 
  2.	Topics / Branches which you assign with your templates / rich text. 
  3.	General settings and bookmarks. 
@@ -79,7 +79,7 @@ With the latest version of Ideaspad you can create your own mini systems.
 <br/>
 <br/>
 
-# Features
+## Features
 
 <img align="right" src="gfx/project-plan.png" width="292" height="202">
 
@@ -94,7 +94,7 @@ With the latest version of Ideaspad you can create your own mini systems.
  * Import Export features.
 
 
-## Possible Uses
+## Possible uses
 * Research Data Organizer
 * Your own custom order entry system.
 * A project stash / planner.
@@ -103,13 +103,11 @@ With the latest version of Ideaspad you can create your own mini systems.
 * Your own recipe catalogue.
 * A card file for your music collection.
 * Custom home inventory store.
-* A birthday / Christmas card diary.
+* A Birthday / Christmas card diary.
 * Scrap book.
 * The possibilities are endless!
 
 <br/>
-
------
 
 # Background
 
@@ -131,7 +129,7 @@ You’ll need Microsoft Visual Basic .Net 2003, you can download this as part of
 
 You will also probably need to use Windows 7 or earlier.
 
-Perhaps in future I may upgrade this project if this becomes a popular request.
+Perhaps in the future I may upgrade this project if this becomes a popular request.
 
 You’ll also need to install Microsoft Data Access Components 2.8.
 
@@ -141,12 +139,20 @@ You’ll notice there are two project files for Ideaspad and a number of DLLs su
 
 So the easiest way to compile the project is to open \CodeLibrary\SharewareProjs\IdeasPad\IdeasPadDebug.sln
 
+However you can also use the batch files in the build folder, start with the DLLs.
+
 <br/>
 
-## Contributing
+# Installation
+
+You can install the app via [Ideaspad.msi](https://github.com/Jules2010/Ideaspad/raw/master/Build/IPStandard/DistBuild/Ideaspad.msi) which will inform you about any system requirements you don't already have.
+
+<br/>
+
+# Contributing
 Contributions for bug fixing or improvements are welcomed. Feel free to submit a pull request.
 
 <br/>
 
-## License
+# License
 Usage is provided under the [MIT License](http://opensource.org/licenses/mit-license.php). See LICENSE for the full details.
