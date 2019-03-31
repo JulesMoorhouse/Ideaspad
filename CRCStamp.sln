@@ -1,12 +1,12 @@
-Microsoft Visual Studio Solution File, Format Version 7.00
+Microsoft Visual Studio Solution File, Format Version 8.00
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CRCStamp", "CRCStamp.vbproj", "{192279E1-4C2D-4112-B035-76FF7C23C944}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfiguration) = preSolution
-		ConfigName.0 = Debug
-		ConfigName.1 = Release
-	EndGlobalSection
-	GlobalSection(ProjectDependencies) = postSolution
+		Debug = Debug
+		Release = Release
 	EndGlobalSection
 	GlobalSection(ProjectConfiguration) = postSolution
 		{192279E1-4C2D-4112-B035-76FF7C23C944}.Debug.ActiveCfg = Debug|.NET
