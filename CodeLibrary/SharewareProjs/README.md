@@ -1,4 +1,4 @@
-This folder contains shared applicatiosns from subtree repos.
+This folder contains shared applications from subtree repos.
 
 Applications
 
