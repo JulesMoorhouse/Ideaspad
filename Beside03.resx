@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Beside03_Apologise">
+		<value>We'd like to Apologise for not meeting your needs with Ideaspad!</value>
+	</data>
+	<data name="Beside03_PleaseTellUs">
+		<value>Please tell us where we went wrong</value>
+	</data>
+	<data name="Beside03_IfYouFoundProblems">
+		<value>e.g. If you've found problems... </value>
+	</data>
+	<data name="Beside03_Win">
+		<value>Win / Earn a FREE copy of Ideaspad.</value>
+	</data>
+	<data name="Beside03_IfWeFind">
+		<value>If we find your feedback useful and / or leads to a product improvement, we will reward you with a free license.</value>
+	</data>
+	<data name="Beside03_ThingsYouMight">
+		<value>Things you might include, feedback on the product / website, a new feature or a problem. Try and provide as much detail as possible. We may also wish to contact you to discuss your feedback.</value>
+	</data>
+	<data name="Beside03_IWouldLike">
+		<value>I would like my feedback to be considered for a free license?</value>
+	</data>
+	<data name="Beside03_WeWill">
+		<value>We will contact you if we feel your feedback qualifies, if you don’t hear from us, you will have been unsuccessful.</value>
+	</data>
+	<data name="Beside03_BasicReasons">
+		<value>Basic Reasons :</value>
+	</data>
+	<data name="Beside03_BasicReasonsPleaseSelect">
+		<value>(Please select)</value>
+	</data>
+	<data name="Beside03_BasicReasonFoundTooComp">
+		<value>Found it too complicated</value>
+	</data>
+	<data name="Beside03_BasicReasonsMissingAn">
+		<value>Missing an expected feature</value>
+	</data>
+	<data name="Beside03_BasicReasonsHadAProb">
+		<value>Had a problem</value>
+	</data>
+	<data name="Beside03_BasicReasonsWasntWhatThought">
+		<value>Wasn't what I thought it would be</value>
+	</data>
+	<data name="Beside03_BasicReasonsWouldExpensive">
+		<value>I would have bought the program but it was too expensive</value>
+	</data>
+	<data name="Beside03_BasicReasonsJustDidntLike">
+		<value>Just didn't like the program</value>
+	</data>
+	<data name="Beside03_BasicReasonsTrialExpired">
+		<value>Trial expired</value>
+	</data>
+	<data name="Beside03_BasicReasonsMightFuture">
+		<value>I might be interested in the future</value>
+	</data>
+	<data name="Beside03_BasicReasonsOther">
+		<value>Other</value>
+	</data>
+	<data name="Beside03_Comments">
+		<value>Problem / Comments :</value>
+	</data>
+	<data name="Beside03_OptionalBut">
+		<value>(Optional, but we'd be grateful!)</value>
+	</data>
+	<data name="Beside03_YourName">
+		<value>Name :</value>
+	</data>
+	<data name="Beside03_YourEmail">
+		<value>E-mail :</value>
+	</data>
+	<data name="Beside03_Optional">
+		<value>(Optional)</value>
+	</data>
+	<data name="Beside03_SendUsYourThoughts">
+		<value>Send us your thoughts!</value>
+	</data>
+	<data name="Beside03_lblThanks">
+		<value>Thanks in Advance!</value>
+	</data>
+	<data name="Beside03_Caption">
+		<value>Survey</value>
+	</data>
+	<data name="Beside03_SentOK">
+		<value>Sent OK!</value>
+	</data>
+	<data name="Beside03_FailedToSend">
+		<value>Failed to Send!</value>
+	</data>
+	<data name="Beside03_Sent">
+		<value>Sent ...</value>
+	</data>
+	<data name="Beside03_Sending">
+		<value>Sending ...</value>
+	</data>
+</root>
