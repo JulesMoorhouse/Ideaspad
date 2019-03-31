@@ -43,6 +43,12 @@ echo .
 Echo 3. Compile and copy ideasPad.exe....
 "C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\CodeLibrary\SharewareProjs\IdeasPad\IdeasPad.sln" /rebuild release /out Build\IPStandard\Logs\IPStandard.txt
 
+
+echo -------- Results --------
+type Build\IPStandard\Logs\IPStandard.txt
+echo -------- Results --------
+
+
 copy "..\CodeLibrary\SharewareProjs\IdeasPad\bin\IdeasPad.exe" "IPStandard\Temp\IdeasPad.exe"
 echo .
 
@@ -65,11 +71,6 @@ Echo 7. Adding CRC Footer IdeasPad....
 
 Echo 8. Check your EXE at this point see if CRC has worked OK!!
 echo.
-
-echo -------- Results --------
-type Build\IPStandard\Logs\IPStandard.txt
-echo -------- Results --------
-
 
 echo.
 echo 9. REMEMBER TO CHANGE THE VERSION NUMBER IN LOCALIZED DLLS TOO IF NECESSARY!!!

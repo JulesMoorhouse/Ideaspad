@@ -9,6 +9,11 @@ echo .
 Echo Compile and copy ....
 "C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharedLibraries\ProbHand\ProbHand.sln" /rebuild release /out ..\DLLS\Logs\ProbHand.txt
 copy "..\..\CodeLibrary\SharedLibraries\ProbHand\bin\ProbHand.dll" "..\DLLS\Temp\ProbHand.dll"
+
+echo -------- Results --------
+type ..\DLLS\Logs\ProbHand.txt
+echo -------- Results --------
+
 echo .
 
 echo turn off validation with public keys..

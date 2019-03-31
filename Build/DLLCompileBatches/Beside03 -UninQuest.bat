@@ -8,6 +8,11 @@ Del "..\DLLS\Logs\Beside03.txt" /Q
 echo .
 Echo Compile and copy ....
 "C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharewareProjs\UninQuest\UninQuest.sln" /rebuild release /out ..\DLLS\Logs\Beside03.txt
+
+echo -------- Results --------
+type ..\DLLS\Logs\Beside03.txt
+echo -------- Results --------
+
 copy "..\..\CodeLibrary\SharewareProjs\UninQuest\bin\beside03.exe" "..\DLLS\Temp\Beside03.exe"
 echo .
 

@@ -8,6 +8,11 @@ Del "..\DLLS\Logs\WinOnly.txt" /Q
 echo .
 Echo Compile and copy ....
 "C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharedLibraries\WinOnly\WinOnly.sln" /rebuild release /out ..\DLLS\Logs\WinOnly.txt
+
+echo -------- Results --------
+type ..\DLLS\Logs\WinOnly.txt
+echo -------- Results --------
+
 copy "..\..\CodeLibrary\SharedLibraries\WinOnly\bin\WinOnly.dll" "..\DLLS\Temp\WinOnly.dll"
 echo .
 

@@ -7,8 +7,13 @@ Del "..\DLLS\Logs\MCLCore.txt" /Q
 
 echo .
 Echo Compile and copy ....
-"C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharewareProjs\MCLCore\MCLCore.sln" /rebuild release /out ..\DLLS\Logs\MCLCore.txt
-copy "..\..\CodeLibrary\SharewareProjs\MCLCore\bin\MCLCore.dll" "..\DLLS\Temp\MCLCore.dll"
+"C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharedLibraries\MCLCore\MCLCore.sln" /rebuild release /out ..\DLLS\Logs\MCLCore.txt
+
+echo -------- Results --------
+type ..\DLLS\Logs\MCLCore.txt
+echo -------- Results --------
+
+copy "..\..\CodeLibrary\SharedLibraries\MCLCore\bin\MCLCore.dll" "..\DLLS\Temp\MCLCore.dll"
 echo .
 
 echo turn off validation with public keys..

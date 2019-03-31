@@ -9,6 +9,11 @@ echo .
 Echo Compile and copy ....
 "C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharewareProjs\MCLKeys\MCLKeys.sln" /rebuild release /out ..\DLLS\Logs\MCLKeys.txt
 copy "..\..\CodeLibrary\SharewareProjs\MCLKeys\bin\mclkeys.dll" "..\DLLS\Temp\MCLKeys.dll"
+
+echo -------- Results --------
+type ..\DLLS\Logs\MCLKeys.txt
+echo -------- Results --------
+
 echo .
 
 echo turn off validation with public keys..

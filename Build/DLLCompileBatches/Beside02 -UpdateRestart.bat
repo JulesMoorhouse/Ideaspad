@@ -8,6 +8,11 @@ Del "..\DLLS\Logs\Beside02.txt" /Q
 echo .
 Echo Compile and copy ....
 "C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharewareProjs\UpdateRestart\UpdateRestart.sln" /rebuild release /out ..\DLLS\Logs\Beside02.txt
+
+echo -------- Results --------
+type ..\DLLS\Logs\Beside02.txt
+echo -------- Results --------
+
 copy "..\..\CodeLibrary\SharewareProjs\UpdateRestart\bin\beside02.exe" "..\DLLS\Temp\Beside02.exe"
 echo .
 

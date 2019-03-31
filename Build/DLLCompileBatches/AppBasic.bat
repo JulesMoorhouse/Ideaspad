@@ -8,6 +8,11 @@ Del "..\DLLS\Logs\AppBasic.txt" /Q
 echo .
 Echo Compile and copy ....
 "C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharedLibraries\AppBasic\AppBasic.sln" /rebuild release /out ..\DLLS\Logs\AppBasic.txt
+
+echo -------- Results --------
+type ..\DLLS\Logs\AppBasic.txt
+echo -------- Results --------
+
 copy "..\..\CodeLibrary\SharedLibraries\AppBasic\bin\AppBasic.dll" "..\DLLS\Temp\AppBasic.dll"
 echo .
 

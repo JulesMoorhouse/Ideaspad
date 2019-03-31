@@ -9,8 +9,13 @@ echo .
 
 echo .
 Echo Compile and copy ....
-"C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharewareProjs\IPIconsPack\IPIconsPack.sln" /rebuild release /out ..\DLLS\Logs\IPIconsPack.txt
-copy "..\..\CodeLibrary\SharewareProjs\IPIconsPack\bin\IPIconsPack.dll" "..\DLLS\Temp\IPIconsPack.dll"
+"C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharedLibraries\IPIconsPack\IPIconsPack.sln" /rebuild release /out ..\DLLS\Logs\IPIconsPack.txt
+
+echo -------- Results --------
+type ..\DLLS\Logs\IPIconsPack.txt
+echo -------- Results --------
+
+copy "..\..\CodeLibrary\SharedLibraries\IPIconsPack\bin\IPIconsPack.dll" "..\DLLS\Temp\IPIconsPack.dll"
 echo .
 
 echo turn off validation with public keys..

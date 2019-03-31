@@ -17,6 +17,11 @@ copy "D:\MclDocsLocal\IdeasPadTemplates\de" "..\IPTemplates\de\"
 echo .
 Echo Compile and copy ....
 "C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharewareProjs\IPTemplates\IPTemplates.sln" /rebuild release /out ..\DLLS\Logs\IPTemplates.txt
+
+echo -------- Results --------
+type ..\DLLS\Logs\IPTemplates.txt
+echo -------- Results --------
+
 copy "..\..\CodeLibrary\SharewareProjs\IPTemplates\bin\IPTemplates.dll" "..\DLLS\Temp\IPTemplates.dll"
 echo .
 

@@ -10,6 +10,11 @@ copy "..\DLLs\AppBasic.dll" "..\DLLS\Temp\AppBasic.dll" > nul
 echo .
 Echo 2. Compile and copy ....
 "C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharedLibraries\TableEditor\TableEditor\TableEditorDLL.sln" /rebuild release /out ..\DLLS\Logs\TableEditor.txt
+
+echo -------- Results --------
+type ..\DLLS\Logs\TableEditor.txt
+echo -------- Results --------
+
 copy "..\..\CodeLibrary\SharedLibraries\TableEditor\TableEditor\bin\TableEditor.dll" "..\DLLS\Temp\TableEditor.dll"
 echo .
 
@@ -27,9 +32,5 @@ echo .
 echo 6. Finished and Tidying up
 Del "..\DLLS\Temp\TableEditor.dll" /Q
 echo .
-
-echo -------- Results --------
-type ..\DLLS\Logs\TableEditor.txt
-echo -------- Results --------
 
 pause

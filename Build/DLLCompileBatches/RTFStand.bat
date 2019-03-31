@@ -8,6 +8,11 @@ Del "..\DLLS\Logs\RTFStand.txt" /Q
 echo .
 Echo Compile and copy ....
 "C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharedLibraries\RTFStand\RTFStand.sln" /rebuild release /out ..\DLLS\Logs\RTFStand.txt
+
+echo -------- Results --------
+type ..\DLLS\Logs\RTFStand.txt
+echo -------- Results --------
+
 copy "..\..\CodeLibrary\SharedLibraries\RTFStand\bin\RTFStand.dll" "..\DLLS\Temp\RTFStand.dll"
 echo .
 

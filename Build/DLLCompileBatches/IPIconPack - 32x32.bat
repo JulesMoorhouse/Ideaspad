@@ -10,6 +10,11 @@ echo .
 echo .
 Echo Compile and copy ....
 "C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharewareProjs\IPIconsPack32x32\IPIconsPack.sln" /rebuild release /out ..\DLLS\OtherIconPacks\IPIconsPack32x32\Logs\IPIconsPack.txt
+
+echo -------- Results --------
+type ..\DLLS\OtherIconPacks\IPIconsPack32x32\Logs\IPIconsPack.txt
+echo -------- Results --------
+
 copy "..\..\CodeLibrary\SharewareProjs\IPIconsPack32x32\bin\IPIconsPack.dll" "..\DLLS\OtherIconPacks\IPIconsPack32x32\Temp\IPIconsPack.dll"
 echo .
 

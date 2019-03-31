@@ -8,6 +8,11 @@ Del "..\DLLS\Logs\Beside01.txt" /Q
 echo .
 Echo Compile and copy ....
 "C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Common7\IDE\devenv.exe" "..\..\CodeLibrary\SharewareProjs\DBmaint\DBmaint.sln" /rebuild release /out ..\DLLS\Logs\Beside01.txt
+
+echo -------- Results --------
+type ..\DLLS\Logs\Beside01.txt
+echo -------- Results --------
+
 copy "..\..\CodeLibrary\SharewareProjs\DBmaint\bin\beside01.exe" "..\DLLS\Temp\Beside01.exe"
 echo .
 
