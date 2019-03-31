@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestApplication", "TestApplication\TestApplication.vbproj", "{215ED8A3-EDFE-478F-AD3B-CB3C1542986E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TableEditor", "TableEditor\TableEditor.vbproj", "{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{215ED8A3-EDFE-478F-AD3B-CB3C1542986E}.Debug.ActiveCfg = Debug|.NET
+		{215ED8A3-EDFE-478F-AD3B-CB3C1542986E}.Debug.Build.0 = Debug|.NET
+		{215ED8A3-EDFE-478F-AD3B-CB3C1542986E}.Release.ActiveCfg = Release|.NET
+		{215ED8A3-EDFE-478F-AD3B-CB3C1542986E}.Release.Build.0 = Release|.NET
+		{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}.Debug.ActiveCfg = Debug|.NET
+		{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}.Debug.Build.0 = Debug|.NET
+		{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}.Release.ActiveCfg = Release|.NET
+		{16BDC8E3-75B3-4C0F-AA92-360790F1AAE7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
