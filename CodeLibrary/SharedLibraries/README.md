@@ -2,15 +2,15 @@ This folder contains shared DLLs and code from subtree repos.
 
 DLLs
 
-https://github.com/Jules2010/AppBasicDLL.git
-https://github.com/Jules2010/IPIconsPackDLL.git
-https://github.com/Jules2010/MCLCoreDLL.git
-https://github.com/Jules2010/ProbHandDLL.git
-https://github.com/Jules2010/RTFSTandDLL.git
-https://github.com/Jules2010/TableEditorDLL.git 
-https://github.com/Jules2010/UIStyleDLL.git
-https://github.com/Jules2010/WinOnlyDLL.git
+https://github.com/JulesMoorhouse/AppBasicDLL.git
+https://github.com/JulesMoorhouse/IPIconsPackDLL.git
+https://github.com/JulesMoorhouse/MCLCoreDLL.git
+https://github.com/JulesMoorhouse/ProbHandDLL.git
+https://github.com/JulesMoorhouse/RTFSTandDLL.git
+https://github.com/JulesMoorhouse/TableEditorDLL.git 
+https://github.com/JulesMoorhouse/UIStyleDLL.git
+https://github.com/JulesMoorhouse/WinOnlyDLL.git
 
 Shared code
 
-https://github.com/Jules2010/StdLibs.git
+https://github.com/JulesMoorhouse/StdLibs.git
