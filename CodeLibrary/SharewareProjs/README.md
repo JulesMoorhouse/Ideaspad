@@ -2,9 +2,9 @@ This folder contains shared applications from subtree repos.
 
 Applications
 
-https://github.com/Jules2010/CRCStamp.git
-https://github.com/Jules2010/DBMaint-Beside01.git
-https://github.com/Jules2010/UninQuest-Beside03.git
-https://github.com/Jules2010/UpdateRestart-Beside02.git 
+https://github.com/JulesMoorhouse/CRCStamp.git
+https://github.com/JulesMoorhouse/DBMaint-Beside01.git
+https://github.com/JulesMoorhouse/UninQuest-Beside03.git
+https://github.com/JulesMoorhouse/UpdateRestart-Beside02.git 
 
 
