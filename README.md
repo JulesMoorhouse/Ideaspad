@@ -1,7 +1,7 @@
 IdeasPad
 =========
 
-![GitHub](https://img.shields.io/github/license/jules2010/ideaspad.svg) ![GitHub contributors](https://img.shields.io/github/contributors/jules2010/ideaspad.svg) ![GitHub issues](https://img.shields.io/github/issues/jules2010/ideaspad.svg) ![GitHub pull requests](https://img.shields.io/github/issues-pr/jules2010/ideaspad.svg)
+![GitHub](https://img.shields.io/github/license/JulesMoorhouse/ideaspad.svg) ![GitHub contributors](https://img.shields.io/github/contributors/JulesMoorhouse/ideaspad.svg) ![GitHub issues](https://img.shields.io/github/issues/JulesMoorhouse/ideaspad.svg) ![GitHub pull requests](https://img.shields.io/github/issues-pr/JulesMoorhouse/ideaspad.svg)
 [![Languages](https://img.shields.io/badge/language-vb.net-FF69B4.svg)](#)
 
 IdeasPad is a basic word processor, an information manager (using templates) or both.
@@ -145,7 +145,7 @@ However you can also use the batch files in the build folder, start with the DLL
 
 # Installation
 
-You can install the app via [Ideaspad.msi](https://github.com/Jules2010/Ideaspad/raw/master/Build/IPStandard/DistBuild/Ideaspad.msi) which will inform you about any system requirements you don't already have.
+You can install the app via [Ideaspad.msi](https://github.com/JulesMoorhouse/Ideaspad/raw/master/Build/IPStandard/DistBuild/Ideaspad.msi) which will inform you about any system requirements you don't already have.
 
 <br/>
 
